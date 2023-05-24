@@ -1,0 +1,3459 @@
+[
+  [
+      {
+          "name": "DucHuy98",
+          "placement": 5,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 4,
+                  "style": 3,
+                  "tier_current": 2,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_AnimaSquad",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_WuKong",
+                  "items": [],
+                  "path": "/champions/TFT8_WuKong"
+              },
+              {
+                  "name": "TFT8_Draven",
+                  "items": [],
+                  "path": "/champions/TFT8_Draven"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [
+                      "TFT_Item_RedBuff",
+                      "TFT_Item_BrambleVest"
+                  ],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_MissFortune",
+                  "items": [
+                      "TFT_Item_ArchangelsStaff"
+                  ],
+                  "path": "/champions/TFT8_MissFortune"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Samira",
+                  "items": [
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_HextechGunblade",
+                      "TFT_Item_InfinityEdge"
+                  ],
+                  "path": "/champions/TFT8_Samira"
+              },
+              {
+                  "name": "TFT8_Urgot",
+                  "items": [],
+                  "path": "/champions/TFT8_Urgot"
+              },
+              {
+                  "name": "TFT8_Mordekaiser",
+                  "items": [],
+                  "path": "/champions/TFT8_Mordekaiser"
+              }
+          ]
+      },
+      {
+          "name": "qnsaitama",
+          "placement": 8,
+          "traits": [
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 3,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_WuKong",
+                  "items": [],
+                  "path": "/champions/TFT8_WuKong"
+              },
+              {
+                  "name": "TFT8_Sona",
+                  "items": [],
+                  "path": "/champions/TFT8_Sona"
+              },
+              {
+                  "name": "TFT8_Jax",
+                  "items": [],
+                  "path": "/champions/TFT8_Jax"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_BelVeth",
+                  "items": [
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_RapidFireCannon"
+                  ],
+                  "path": "/champions/TFT8_BelVeth"
+              },
+              {
+                  "name": "TFT8_AurelionSol",
+                  "items": [
+                      "TFT_Item_ArchangelsStaff",
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_SpearOfShojin"
+                  ],
+                  "path": "/champions/TFT8_AurelionSol"
+              },
+              {
+                  "name": "TFT8_Aatrox",
+                  "items": [
+                      "TFT_Item_RedBuff"
+                  ],
+                  "path": "/champions/TFT8_Aatrox"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [],
+                  "path": "/champions/TFT8_Janna"
+              }
+          ]
+      },
+      {
+          "name": "gioi1212",
+          "placement": 4,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 3,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 4,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 4,
+                  "style": 3,
+                  "tier_current": 2,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Fiora",
+                  "items": [
+                      "TFT_Item_TitanicHydra",
+                      "TFT_Item_MadredsBloodrazor",
+                      "TFT_Item_GargoyleStoneplate"
+                  ],
+                  "path": "/champions/TFT8_Fiora"
+              },
+              {
+                  "name": "TFT8_Annie",
+                  "items": [],
+                  "path": "/champions/TFT8_Annie"
+              },
+              {
+                  "name": "TFT8_Vi",
+                  "items": [],
+                  "path": "/champions/TFT8_Vi"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [
+                      "TFT_Item_LocketOfTheIronSolari",
+                      "TFT_Item_FrozenHeart"
+                  ],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_BrambleVest",
+                      "TFT_Item_StatikkShiv"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_SeraphsEmbrace",
+                      "TFT8_Item_OxForceEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Janna"
+              }
+          ]
+      },
+      {
+          "name": "Santafe20212",
+          "placement": 1,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Admin",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 5,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Ashe",
+                  "items": [
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_GuinsoosRageblade"
+                  ],
+                  "path": "/champions/TFT8_Ashe"
+              },
+              {
+                  "name": "TFT8_Renekton",
+                  "items": [],
+                  "path": "/champions/TFT8_Renekton"
+              },
+              {
+                  "name": "TFT8_Yasuo",
+                  "items": [],
+                  "path": "/champions/TFT8_Yasuo"
+              },
+              {
+                  "name": "TFT8_AurelionSol",
+                  "items": [
+                      "TFT_Item_SpearOfShojin",
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_AurelionSol"
+              },
+              {
+                  "name": "TFT8_Warwick",
+                  "items": [],
+                  "path": "/champions/TFT8_Warwick"
+              },
+              {
+                  "name": "TFT8_Aatrox",
+                  "items": [
+                      "TFT8_Item_ADMINEmblemItem",
+                      "TFT_Item_BrambleVest",
+                      "TFT_Item_WarmogsArmor"
+                  ],
+                  "path": "/champions/TFT8_Aatrox"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [
+                      "TFT_Item_FrozenHeart",
+                      "TFT_Item_ZekesHerald"
+                  ],
+                  "path": "/champions/TFT8_Janna"
+              },
+              {
+                  "name": "TFT8_Syndra",
+                  "items": [],
+                  "path": "/champions/TFT8_Syndra"
+              },
+              {
+                  "name": "TFT8_Mordekaiser",
+                  "items": [
+                      "TFT_Item_PowerGauntlet",
+                      "TFT_Item_SeraphsEmbrace",
+                      "TFT_Item_HextechGunblade"
+                  ],
+                  "path": "/champions/TFT8_Mordekaiser"
+              }
+          ]
+      },
+      {
+          "name": "Riqqqqq",
+          "placement": 2,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Admin",
+                  "num_units": 4,
+                  "style": 3,
+                  "tier_current": 2,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Corrupted",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 5,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Blitzcrank",
+                  "items": [],
+                  "path": "/champions/TFT8_Blitzcrank"
+              },
+              {
+                  "name": "TFT8_Ashe",
+                  "items": [
+                      "TFT_Item_Shroud"
+                  ],
+                  "path": "/champions/TFT8_Ashe"
+              },
+              {
+                  "name": "TFT8_Renekton",
+                  "items": [],
+                  "path": "/champions/TFT8_Renekton"
+              },
+              {
+                  "name": "TFT8_Yasuo",
+                  "items": [
+                      "TFT_Item_Chalice",
+                      "TFT_Item_IonicSpark"
+                  ],
+                  "path": "/champions/TFT8_Yasuo"
+              },
+              {
+                  "name": "TFT8_Leblanc",
+                  "items": [
+                      "TFT_Item_Shroud"
+                  ],
+                  "path": "/champions/TFT8_Leblanc"
+              },
+              {
+                  "name": "TFT8_BelVeth",
+                  "items": [
+                      "TFT_Item_GuinsoosRageblade",
+                      "TFT_Item_GuardianAngel",
+                      "TFT_Item_Bloodthirster"
+                  ],
+                  "path": "/champions/TFT8_BelVeth"
+              },
+              {
+                  "name": "TFT8_Warwick",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_ArchangelsStaff",
+                      "TFT_Item_Morellonomicon"
+                  ],
+                  "path": "/champions/TFT8_Warwick"
+              },
+              {
+                  "name": "TFT8_Mordekaiser",
+                  "items": [
+                      "TFT_Item_Redemption",
+                      "TFT_Item_PowerGauntlet",
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Mordekaiser"
+              },
+              {
+                  "name": "TFT8_Fiddlesticks",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_ZekesHerald",
+                      "TFT_Item_Quicksilver"
+                  ],
+                  "path": "/champions/TFT8_Fiddlesticks"
+              }
+          ]
+      },
+      {
+          "name": "pigeonnn",
+          "placement": 7,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 4,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Ashe",
+                  "items": [],
+                  "path": "/champions/TFT8_Ashe"
+              },
+              {
+                  "name": "TFT8_Pantheon",
+                  "items": [],
+                  "path": "/champions/TFT8_Pantheon"
+              },
+              {
+                  "name": "TFT8b_Sivir",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_LocketOfTheIronSolari",
+                      "TFT_Item_GuinsoosRageblade"
+                  ],
+                  "path": "/champions/TFT8b_Sivir"
+              },
+              {
+                  "name": "TFT8_Vi",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_Bloodthirster",
+                      "TFT_Item_DragonsClaw"
+                  ],
+                  "path": "/champions/TFT8_Vi"
+              },
+              {
+                  "name": "TFT8_Shen",
+                  "items": [],
+                  "path": "/champions/TFT8_Shen"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [
+                      "TFT_Item_BrambleVest",
+                      "TFT_Item_DragonsClaw",
+                      "TFT_Item_Redemption"
+                  ],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_Samira",
+                  "items": [
+                      "TFT_Item_Bloodthirster",
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_RunaansHurricane"
+                  ],
+                  "path": "/champions/TFT8_Samira"
+              },
+              {
+                  "name": "TFT8_Leona",
+                  "items": [
+                      "TFT8_Item_DeadeyeEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Leona"
+              }
+          ]
+      },
+      {
+          "name": "Fiszere",
+          "placement": 6,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 6,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Annie",
+                  "items": [],
+                  "path": "/champions/TFT8_Annie"
+              },
+              {
+                  "name": "TFT8_Nilah",
+                  "items": [
+                      "TFT_Item_BrambleVest",
+                      "TFT_Item_GiantsBelt"
+                  ],
+                  "path": "/champions/TFT8_Nilah"
+              },
+              {
+                  "name": "TFT8_Sona",
+                  "items": [],
+                  "path": "/champions/TFT8_Sona"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [
+                      "TFT8_Item_ChannelerEmblemItem",
+                      "TFT_Item_TitansResolve"
+                  ],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_Neeko",
+                  "items": [],
+                  "path": "/champions/TFT8_Neeko"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_RabadonsDeathcap",
+                      "TFT_Item_SpearOfShojin"
+                  ],
+                  "path": "/champions/TFT8_Janna"
+              }
+          ]
+      },
+      {
+          "name": "Couto",
+          "placement": 3,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 4,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_BelVeth",
+                  "items": [
+                      "TFT_Item_FrozenHeart",
+                      "TFT_Item_BFSword"
+                  ],
+                  "path": "/champions/TFT8_BelVeth"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [
+                      "TFT_Item_IonicSpark"
+                  ],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_AurelionSol",
+                  "items": [
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_SpearOfShojin",
+                      "TFT_Item_RabadonsDeathcap"
+                  ],
+                  "path": "/champions/TFT8_AurelionSol"
+              },
+              {
+                  "name": "TFT8_Aatrox",
+                  "items": [
+                      "TFT_Item_WarmogsArmor",
+                      "TFT4_Item_OrnnDeathsDefiance",
+                      "TFT_Item_RedBuff"
+                  ],
+                  "path": "/champions/TFT8_Aatrox"
+              },
+              {
+                  "name": "TFT8_Urgot",
+                  "items": [
+                      "TFT_Item_GuinsoosRageblade",
+                      "TFT_Item_StatikkShiv"
+                  ],
+                  "path": "/champions/TFT8_Urgot"
+              },
+              {
+                  "name": "TFT8_Syndra",
+                  "items": [
+                      "TFT_Item_SpearOfShojin"
+                  ],
+                  "path": "/champions/TFT8_Syndra"
+              }
+          ]
+      }
+  ],
+  [
+      {
+          "name": "xyarsss",
+          "placement": 6,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Supers",
+                  "num_units": 3,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Gangplank",
+                  "items": [],
+                  "path": "/champions/TFT8_Gangplank"
+              },
+              {
+                  "name": "TFT8_WuKong",
+                  "items": [],
+                  "path": "/champions/TFT8_WuKong"
+              },
+              {
+                  "name": "TFT8_Draven",
+                  "items": [
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_HextechGunblade"
+                  ],
+                  "path": "/champions/TFT8_Draven"
+              },
+              {
+                  "name": "TFT8_LeeSin",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_RedBuff",
+                      "TFT_Item_Zephyr"
+                  ],
+                  "path": "/champions/TFT8_LeeSin"
+              },
+              {
+                  "name": "TFT8_Malphite",
+                  "items": [
+                      "TFT_Item_Redemption",
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_FrozenHeart"
+                  ],
+                  "path": "/champions/TFT8_Malphite"
+              },
+              {
+                  "name": "TFT8_Jax",
+                  "items": [],
+                  "path": "/champions/TFT8_Jax"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [
+                      "TFT_Item_LocketOfTheIronSolari"
+                  ],
+                  "path": "/champions/TFT8_Alistar"
+              }
+          ]
+      },
+      {
+          "name": "korearosy",
+          "placement": 5,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 3,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 6,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Supers",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Lulu",
+                  "items": [
+                      "TFT_Item_RecurveBow"
+                  ],
+                  "path": "/champions/TFT8_Lulu"
+              },
+              {
+                  "name": "TFT8_Vi",
+                  "items": [],
+                  "path": "/champions/TFT8_Vi"
+              },
+              {
+                  "name": "TFT8_LeeSin",
+                  "items": [],
+                  "path": "/champions/TFT8_LeeSin"
+              },
+              {
+                  "name": "TFT8_Sona",
+                  "items": [
+                      "TFT_Item_SeraphsEmbrace",
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_PowerGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Sona"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [
+                      "TFT8_Item_HeartEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [
+                      "TFT8_Item_HeartEmblemItem",
+                      "TFT_Item_RedBuff"
+                  ],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_AurelionSol",
+                  "items": [
+                      "TFT_Item_MadredsBloodrazor",
+                      "TFT_Item_SpearOfShojin",
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_AurelionSol"
+              }
+          ]
+      },
+      {
+          "name": "pocariswain",
+          "placement": 1,
+          "traits": [
+              {
+                  "name": "Set8_Admin",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 6,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Corrupted",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Supers",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Blitzcrank",
+                  "items": [],
+                  "path": "/champions/TFT8_Blitzcrank"
+              },
+              {
+                  "name": "TFT8_Renekton",
+                  "items": [
+                      "TFT_Item_Bloodthirster",
+                      "TFT_Item_WarmogsArmor",
+                      "TFT5_Item_TitansResolveRadiant"
+                  ],
+                  "path": "/champions/TFT8_Renekton"
+              },
+              {
+                  "name": "TFT8_Vi",
+                  "items": [
+                      "TFT_Item_RedBuff",
+                      "TFT_Item_Redemption",
+                      "TFT_Item_LocketOfTheIronSolari"
+                  ],
+                  "path": "/champions/TFT8_Vi"
+              },
+              {
+                  "name": "TFT8_LeeSin",
+                  "items": [
+                      "TFT_Item_TitanicHydra"
+                  ],
+                  "path": "/champions/TFT8_LeeSin"
+              },
+              {
+                  "name": "TFT8_Jax",
+                  "items": [],
+                  "path": "/champions/TFT8_Jax"
+              },
+              {
+                  "name": "TFT8_Warwick",
+                  "items": [
+                      "TFT_Item_GuardianAngel"
+                  ],
+                  "path": "/champions/TFT8_Warwick"
+              },
+              {
+                  "name": "TFT8_Nunu",
+                  "items": [
+                      "TFT8_Item_HeartEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Nunu"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [
+                      "TFT_Item_SpearOfShojin",
+                      "TFT_Item_NeedlesslyLargeRod"
+                  ],
+                  "path": "/champions/TFT8_Janna"
+              },
+              {
+                  "name": "TFT8_Fiddlesticks",
+                  "items": [
+                      "TFT_Item_PowerGauntlet",
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Fiddlesticks"
+              }
+          ]
+      },
+      {
+          "name": "ducenma202",
+          "placement": 4,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 4,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 5,
+                  "style": 3,
+                  "tier_current": 2,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Fiora",
+                  "items": [],
+                  "path": "/champions/TFT8_Fiora"
+              },
+              {
+                  "name": "TFT8_Annie",
+                  "items": [],
+                  "path": "/champions/TFT8_Annie"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [
+                      "TFT8_Item_OxForceEmblemItem",
+                      "TFT_Item_IonicSpark",
+                      "TFT_Item_WarmogsArmor"
+                  ],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_ArchangelsStaff",
+                      "TFT_Item_Morellonomicon"
+                  ],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_StatikkShiv",
+                      "TFT_Item_GuinsoosRageblade",
+                      "TFT_Item_HextechGunblade"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_Neeko",
+                  "items": [
+                      "TFT_Item_SpearOfShojin",
+                      "TFT_Item_Morellonomicon",
+                      "TFT_Item_PowerGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Neeko"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [],
+                  "path": "/champions/TFT8_Janna"
+              },
+              {
+                  "name": "TFT8_Syndra",
+                  "items": [],
+                  "path": "/champions/TFT8_Syndra"
+              }
+          ]
+      },
+      {
+          "name": "IHaveJebusRing",
+          "placement": 3,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Admin",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_AnimaSquad",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 4,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Corrupted",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 5,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Blitzcrank",
+                  "items": [],
+                  "path": "/champions/TFT8_Blitzcrank"
+              },
+              {
+                  "name": "TFT8_Ashe",
+                  "items": [
+                      "TFT_Item_StatikkShiv"
+                  ],
+                  "path": "/champions/TFT8_Ashe"
+              },
+              {
+                  "name": "TFT8_Renekton",
+                  "items": [],
+                  "path": "/champions/TFT8_Renekton"
+              },
+              {
+                  "name": "TFT8_Yasuo",
+                  "items": [],
+                  "path": "/champions/TFT8_Yasuo"
+              },
+              {
+                  "name": "TFT8_Riven",
+                  "items": [
+                      "TFT_Item_IonicSpark",
+                      "TFT_Item_NegatronCloak"
+                  ],
+                  "path": "/champions/TFT8_Riven"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_Warwick",
+                  "items": [
+                      "TFT_Item_Bloodthirster"
+                  ],
+                  "path": "/champions/TFT8_Warwick"
+              },
+              {
+                  "name": "TFT8_Mordekaiser",
+                  "items": [
+                      "TFT_Item_Morellonomicon",
+                      "TFT_Item_ArchangelsStaff",
+                      "TFT_Item_FrozenHeart"
+                  ],
+                  "path": "/champions/TFT8_Mordekaiser"
+              },
+              {
+                  "name": "TFT8_Fiddlesticks",
+                  "items": [
+                      "TFT_Item_RabadonsDeathcap",
+                      "TFT_Item_RabadonsDeathcap"
+                  ],
+                  "path": "/champions/TFT8_Fiddlesticks"
+              }
+          ]
+      },
+      {
+          "name": "HoulahanMVP",
+          "placement": 7,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_AnimaSquad",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 6,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 4,
+                  "style": 3,
+                  "tier_current": 2,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Kayle",
+                  "items": [],
+                  "path": "/champions/TFT8_Kayle"
+              },
+              {
+                  "name": "TFT8_Fiora",
+                  "items": [
+                      "TFT_Item_RedBuff"
+                  ],
+                  "path": "/champions/TFT8_Fiora"
+              },
+              {
+                  "name": "TFT8_Annie",
+                  "items": [],
+                  "path": "/champions/TFT8_Annie"
+              },
+              {
+                  "name": "TFT8_Yasuo",
+                  "items": [],
+                  "path": "/champions/TFT8_Yasuo"
+              },
+              {
+                  "name": "TFT8_Vayne",
+                  "items": [
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_RunaansHurricane",
+                      "TFT_Item_Quicksilver"
+                  ],
+                  "path": "/champions/TFT8_Vayne"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [
+                      "TFT8_Item_DuelistEmblemItem",
+                      "TFT8_Item_OxForceEmblemItem",
+                      "TFT_Item_Redemption"
+                  ],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_GuinsoosRageblade",
+                      "TFT_Item_BFSword"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              }
+          ]
+      },
+      {
+          "name": "Fiszere",
+          "placement": 2,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 3,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_AnimaSquad",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Parallel",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 4,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Lucian",
+                  "items": [
+                      "TFT_Item_Chalice"
+                  ],
+                  "path": "/champions/TFT8_Lucian"
+              },
+              {
+                  "name": "TFT8_Ezreal",
+                  "items": [
+                      "TFT8_Item_RenegadeEmblemItem",
+                      "TFT_Item_SeraphsEmbrace",
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Ezreal"
+              },
+              {
+                  "name": "TFT8_Riven",
+                  "items": [
+                      "TFT8_Item_InfiniteamEmblemItem",
+                      "TFT_Item_IonicSpark"
+                  ],
+                  "path": "/champions/TFT8_Riven"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Shen",
+                  "items": [
+                      "TFT8_Item_BrawlerEmblemItem",
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_Redemption"
+                  ],
+                  "path": "/champions/TFT8_Shen"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [
+                      "TFT_Item_UnstableConcoction",
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT5_Item_TitansResolveRadiant"
+                  ],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [
+                      "TFT_Item_SpearOfShojin",
+                      "TFT4_Item_OrnnRanduinsSanctum",
+                      "TFT_Item_Morellonomicon"
+                  ],
+                  "path": "/champions/TFT8_Janna"
+              },
+              {
+                  "name": "TFT8_Leona",
+                  "items": [
+                      "TFT_Item_InfinityEdge"
+                  ],
+                  "path": "/champions/TFT8_Leona"
+              }
+          ]
+      },
+      {
+          "name": "pykslayer",
+          "placement": 8,
+          "traits": [
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Kayle",
+                  "items": [],
+                  "path": "/champions/TFT8_Kayle"
+              },
+              {
+                  "name": "TFT8_Kaisa",
+                  "items": [],
+                  "path": "/champions/TFT8_Kaisa"
+              },
+              {
+                  "name": "TFT8_Aatrox",
+                  "items": [],
+                  "path": "/champions/TFT8_Aatrox"
+              }
+          ]
+      }
+  ],
+  [
+      {
+          "name": "dlwlrmá",
+          "placement": 3,
+          "traits": [
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Corrupted",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Forecaster",
+                  "num_units": 1,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Parallel",
+                  "num_units": 2,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 7,
+                  "style": 4,
+                  "tier_current": 3,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Lucian",
+                  "items": [],
+                  "path": "/champions/TFT8_Lucian"
+              },
+              {
+                  "name": "TFT8b_Sivir",
+                  "items": [],
+                  "path": "/champions/TFT8b_Sivir"
+              },
+              {
+                  "name": "TFT8_Ezreal",
+                  "items": [],
+                  "path": "/champions/TFT8_Ezreal"
+              },
+              {
+                  "name": "TFT8_Shen",
+                  "items": [
+                      "TFT_Item_ChainVest"
+                  ],
+                  "path": "/champions/TFT8_Shen"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_GuinsoosRageblade",
+                      "TFT_Item_StatikkShiv"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_Aatrox",
+                  "items": [
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_RedBuff",
+                      "TFT8_Item_InfiniteamEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Aatrox"
+              },
+              {
+                  "name": "TFT8_EzrealFuture",
+                  "items": [
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_PowerGauntlet"
+                  ],
+                  "path": "/champions/TFT8_EzrealFuture"
+              },
+              {
+                  "name": "TFT8_Janna",
+                  "items": [],
+                  "path": "/champions/TFT8_Janna"
+              },
+              {
+                  "name": "TFT8_Fiddlesticks",
+                  "items": [
+                      "TFT8_Item_InfiniteamEmblemItem",
+                      "TFT_Item_Redemption"
+                  ],
+                  "path": "/champions/TFT8_Fiddlesticks"
+              }
+          ]
+      },
+      {
+          "name": "Vigne",
+          "placement": 5,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 4,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Parallel",
+                  "num_units": 2,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 5,
+                  "style": 3,
+                  "tier_current": 2,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Pantheon",
+                  "items": [],
+                  "path": "/champions/TFT8_Pantheon"
+              },
+              {
+                  "name": "TFT8b_Sivir",
+                  "items": [],
+                  "path": "/champions/TFT8b_Sivir"
+              },
+              {
+                  "name": "TFT8_Ezreal",
+                  "items": [],
+                  "path": "/champions/TFT8_Ezreal"
+              },
+              {
+                  "name": "TFT8_Shen",
+                  "items": [
+                      "TFT_Item_DragonsClaw",
+                      "TFT_Item_BrambleVest"
+                  ],
+                  "path": "/champions/TFT8_Shen"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [
+                      "TFT_Item_RedBuff",
+                      "TFT8_Item_DeadeyeEmblemItem",
+                      "TFT_Item_Redemption"
+                  ],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_Samira",
+                  "items": [],
+                  "path": "/champions/TFT8_Samira"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_NeedlesslyLargeRod"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_EzrealFuture",
+                  "items": [
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_LastWhisper",
+                      "TFT_Item_SpearOfShojin"
+                  ],
+                  "path": "/champions/TFT8_EzrealFuture"
+              }
+          ]
+      },
+      {
+          "name": "moneyag7",
+          "placement": 1,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Admin",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_AnimaSquad",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 4,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_SpaceCorps",
+                  "num_units": 5,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Blitzcrank",
+                  "items": [],
+                  "path": "/champions/TFT8_Blitzcrank"
+              },
+              {
+                  "name": "TFT8_Ashe",
+                  "items": [],
+                  "path": "/champions/TFT8_Ashe"
+              },
+              {
+                  "name": "TFT8_Renekton",
+                  "items": [],
+                  "path": "/champions/TFT8_Renekton"
+              },
+              {
+                  "name": "TFT8_Yasuo",
+                  "items": [],
+                  "path": "/champions/TFT8_Yasuo"
+              },
+              {
+                  "name": "TFT8_Riven",
+                  "items": [],
+                  "path": "/champions/TFT8_Riven"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [
+                      "TFT_Item_WarmogsArmor",
+                      "TFT_Item_TitanicHydra",
+                      "TFT_Item_GargoyleStoneplate"
+                  ],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_Warwick",
+                  "items": [
+                      "TFT_Item_RunaansHurricane",
+                      "TFT_Item_GuardianAngel",
+                      "TFT_Item_TitansResolve"
+                  ],
+                  "path": "/champions/TFT8_Warwick"
+              },
+              {
+                  "name": "TFT8_Mordekaiser",
+                  "items": [
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_FrozenHeart",
+                      "TFT_Item_IonicSpark"
+                  ],
+                  "path": "/champions/TFT8_Mordekaiser"
+              }
+          ]
+      },
+      {
+          "name": "ducenma202",
+          "placement": 8,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Parallel",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Kayle",
+                  "items": [],
+                  "path": "/champions/TFT8_Kayle"
+              },
+              {
+                  "name": "TFT8_Fiora",
+                  "items": [
+                      "TFT_Item_ThiefsGloves",
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_Bloodthirster"
+                  ],
+                  "path": "/champions/TFT8_Fiora"
+              },
+              {
+                  "name": "TFT8_Annie",
+                  "items": [
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_RedBuff"
+                  ],
+                  "path": "/champions/TFT8_Annie"
+              },
+              {
+                  "name": "TFT8_Ezreal",
+                  "items": [],
+                  "path": "/champions/TFT8_Ezreal"
+              },
+              {
+                  "name": "TFT8_Sona",
+                  "items": [],
+                  "path": "/champions/TFT8_Sona"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_MadredsBloodrazor",
+                      "TFT_Item_HextechGunblade"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              }
+          ]
+      },
+      {
+          "name": "Taiphoon",
+          "placement": 2,
+          "traits": [
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 3,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Prankster",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 5,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Riftwalker",
+                  "num_units": 3,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_StarGuardian",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Threat",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 1,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Pyke",
+                  "items": [],
+                  "path": "/champions/TFT8_Pyke"
+              },
+              {
+                  "name": "TFT8_Vex",
+                  "items": [
+                      "TFT_Item_ArchangelsStaff",
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_SeraphsEmbrace"
+                  ],
+                  "path": "/champions/TFT8_Vex"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Morgana",
+                  "items": [
+                      "TFT_Item_WarmogsArmor",
+                      "TFT_Item_SpearOfShojin",
+                      "TFT8_Item_RenegadeEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Morgana"
+              },
+              {
+                  "name": "TFT8_Ekko",
+                  "items": [],
+                  "path": "/champions/TFT8_Ekko"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_Jhin",
+                  "items": [
+                      "TFT_Item_Deathblade",
+                      "TFT_Item_MadredsBloodrazor"
+                  ],
+                  "path": "/champions/TFT8_Jhin"
+              },
+              {
+                  "name": "TFT8_Leona",
+                  "items": [],
+                  "path": "/champions/TFT8_Leona"
+              },
+              {
+                  "name": "TFT8_Zac",
+                  "items": [],
+                  "path": "/champions/TFT8_Zac"
+              }
+          ]
+      },
+      {
+          "name": "Fiszere",
+          "placement": 7,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Brawler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_GenAE",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_WuKong",
+                  "items": [],
+                  "path": "/champions/TFT8_WuKong"
+              },
+              {
+                  "name": "TFT8_Annie",
+                  "items": [],
+                  "path": "/champions/TFT8_Annie"
+              },
+              {
+                  "name": "TFT8_Vi",
+                  "items": [],
+                  "path": "/champions/TFT8_Vi"
+              },
+              {
+                  "name": "TFT8_Sona",
+                  "items": [],
+                  "path": "/champions/TFT8_Sona"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_Samira",
+                  "items": [],
+                  "path": "/champions/TFT8_Samira"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [
+                      "TFT_Item_GuinsoosRageblade",
+                      "TFT_Item_StatikkShiv"
+                  ],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_Leona",
+                  "items": [
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_GiantsBelt"
+                  ],
+                  "path": "/champions/TFT8_Leona"
+              }
+          ]
+      },
+      {
+          "name": "purblemontage",
+          "placement": 6,
+          "traits": [
+              {
+                  "name": "Set8_Admin",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_AnimaSquad",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Heart",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Mascot",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_OxForce",
+                  "num_units": 2,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 7,
+                  "style": 3,
+                  "tier_current": 3,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Riftwalker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 1
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_Sylas",
+                  "items": [],
+                  "path": "/champions/TFT8_Sylas"
+              },
+              {
+                  "name": "TFT8_Lucian",
+                  "items": [],
+                  "path": "/champions/TFT8_Lucian"
+              },
+              {
+                  "name": "TFT8_Camille",
+                  "items": [],
+                  "path": "/champions/TFT8_Camille"
+              },
+              {
+                  "name": "TFT8_Alistar",
+                  "items": [
+                      "TFT8_Item_RenegadeEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Alistar"
+              },
+              {
+                  "name": "TFT8_Viego",
+                  "items": [
+                      "TFT_Item_IonicSpark",
+                      "TFT_Item_Bloodthirster",
+                      "TFT_Item_JeweledGauntlet"
+                  ],
+                  "path": "/champions/TFT8_Viego"
+              },
+              {
+                  "name": "TFT8_Jhin",
+                  "items": [
+                      "TFT_Item_Deathblade",
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_LastWhisper"
+                  ],
+                  "path": "/champions/TFT8_Jhin"
+              },
+              {
+                  "name": "TFT8_Leona",
+                  "items": [
+                      "TFT_Item_Redemption",
+                      "TFT_Item_WarmogsArmor",
+                      "TFT_Item_DragonsClaw"
+                  ],
+                  "path": "/champions/TFT8_Leona"
+              }
+          ]
+      },
+      {
+          "name": "BurnellaEkA",
+          "placement": 4,
+          "traits": [
+              {
+                  "name": "Set8_Ace",
+                  "num_units": 1,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_Aegis",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Channeler",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Deadeye",
+                  "num_units": 3,
+                  "style": 2,
+                  "tier_current": 2,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_Defender",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Duelist",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              },
+              {
+                  "name": "Set8_ExoPrime",
+                  "num_units": 3,
+                  "style": 1,
+                  "tier_current": 1,
+                  "tier_total": 2
+              },
+              {
+                  "name": "Set8_GunMage",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Hacker",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Parallel",
+                  "num_units": 2,
+                  "style": 3,
+                  "tier_current": 1,
+                  "tier_total": 1
+              },
+              {
+                  "name": "Set8_Pulsefire",
+                  "num_units": 7,
+                  "style": 4,
+                  "tier_current": 3,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_Renegade",
+                  "num_units": 1,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 3
+              },
+              {
+                  "name": "Set8_UndergroundThe",
+                  "num_units": 2,
+                  "style": 0,
+                  "tier_current": 0,
+                  "tier_total": 4
+              }
+          ],
+          "units": [
+              {
+                  "name": "TFT8_WuKong",
+                  "items": [],
+                  "path": "/champions/TFT8_WuKong"
+              },
+              {
+                  "name": "TFT8b_Sivir",
+                  "items": [],
+                  "path": "/champions/TFT8b_Sivir"
+              },
+              {
+                  "name": "TFT8_Ezreal",
+                  "items": [
+                      "TFT_Item_JeweledGauntlet",
+                      "TFT_Item_LastWhisper"
+                  ],
+                  "path": "/champions/TFT8_Ezreal"
+              },
+              {
+                  "name": "TFT8_Shen",
+                  "items": [
+                      "TFT_Item_LocketOfTheIronSolari"
+                  ],
+                  "path": "/champions/TFT8_Shen"
+              },
+              {
+                  "name": "TFT8_Garen",
+                  "items": [
+                      "TFT_Item_GargoyleStoneplate",
+                      "TFT_Item_WarmogsArmor",
+                      "TFT8_Item_InfiniteamEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Garen"
+              },
+              {
+                  "name": "TFT8_Samira",
+                  "items": [
+                      "TFT8_Item_InfiniteamEmblemItem",
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_HextechGunblade"
+                  ],
+                  "path": "/champions/TFT8_Samira"
+              },
+              {
+                  "name": "TFT8_TwistedFate",
+                  "items": [],
+                  "path": "/champions/TFT8_TwistedFate"
+              },
+              {
+                  "name": "TFT8_EzrealFuture",
+                  "items": [
+                      "TFT_Item_InfinityEdge",
+                      "TFT_Item_GuinsoosRageblade"
+                  ],
+                  "path": "/champions/TFT8_EzrealFuture"
+              },
+              {
+                  "name": "TFT8_Leona",
+                  "items": [
+                      "TFT8_Item_InfiniteamEmblemItem"
+                  ],
+                  "path": "/champions/TFT8_Leona"
+              }
+          ]
+      }
+  ]
+]

@@ -4,14 +4,19 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   devServer: {
+    historyApiFallback: true,
     open: true,
     proxy: {
-      "/": "http://localhost:3000",
+      "/api": "http://localhost:3000",
+    },
+    static: {
+      directory: path.join(__dirname, "public"),
     },
   },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: "/public",
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -22,7 +27,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?/, //either .js or .jsx
+        test: /\.js$/, //either .js or .jsx
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
