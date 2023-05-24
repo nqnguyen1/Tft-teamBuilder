@@ -1,13 +1,15 @@
 import React from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
+import MatchHistory from "../components/MatchHistory/MatchHistory";
 
 export default function UserProfile() {
-  const user = useLoaderData();
-  console.log(user);
+  const matchHistory = useLoaderData(); //array of 3 elements which contains arrays of 8 object
+  let { username } = useParams();
+
   return (
     <>
-      <h1>hello</h1>
-      <img src=""></img>
+      <h1>{username}</h1>
+      <MatchHistory matchHistory={matchHistory}></MatchHistory>
     </>
   );
 }

@@ -4,7 +4,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   devServer: {
-    historyApiFallback: true,
     open: true,
     proxy: {
       "/api": "http://localhost:3000",
@@ -12,6 +11,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "public"),
     },
+    historyApiFallback: true,
   },
   output: {
     path: path.resolve(__dirname, "dist"),
