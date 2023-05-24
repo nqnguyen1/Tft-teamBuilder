@@ -12,7 +12,7 @@ const fetchAndParse = async (linkToBeFetched) => {
 
 const getMatchHistory = async (puuid) => {
   return fetchAndParse(
-    `https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/${puuid}/ids?start=0&count=3&api_key=` +
+    `https://americas.api.riotgames.com/tft/match/v1/matches/by-puuid/${puuid}/ids?start=0&count=5&api_key=` +
       process.env.RIOT_API_KEY
   );
 };
@@ -44,7 +44,8 @@ userController.getUser = async (req, res, next) => {
   next();
 };
 
-// userController.getUser = async (req, res, next) => { //real live server
+// userController.getUser = async (req, res, next) => {
+//   //real live server
 //   const userData = await getUserByName(req.params.username);
 //   const matchId = await getMatchHistory(userData.puuid);
 //   const matchesData = [];

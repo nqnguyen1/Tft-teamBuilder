@@ -2,24 +2,30 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./client/index.js",
   devServer: {
     open: true,
     proxy: {
-      "/api": "http://localhost:3000",
+      "/api/**": "http://localhost:3000",
+      "/assets/**": {
+        target: "http://localhost:3000/",
+        secure: false,
+      },
     },
     static: {
-      directory: path.join(__dirname, "public"),
+      directory: path.join(__dirname, "client"),
+      publicPath: "/",
     },
     historyApiFallback: true,
   },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
+    publicPath: "/",
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./public/index.html",
+      template: "./client/index.html",
     }),
   ],
 
@@ -37,6 +43,10 @@ module.exports = {
             ],
           },
         },
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },

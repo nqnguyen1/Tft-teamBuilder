@@ -9,6 +9,7 @@ const port = 3000;
 
 app.use(express.static(path.resolve(__dirname, "../dist")));
 app.use(express.json());
+app.use(express.static("client"));
 
 app.get("/api/user/:username", userController.getUser, (req, res, next) => {
   res.json(res.locals.matches);
