@@ -16,7 +16,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
-    publicPath: "/public",
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -27,7 +26,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/, //either .js or .jsx
+        test: /\.jsx?/, //either .js or .jsx
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
