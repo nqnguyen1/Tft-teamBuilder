@@ -1,0 +1,20 @@
+.box {
+  height: 150px;
+  aspect-ratio: 1/1;
+  background-color: rgb(49, 49, 49);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.container > * {
+  margin: 0px 5px;
+  border-image: linear-gradient(#f6b73c, rgb(229, 78, 208)) 40;
+  border-width: 4px;
+  border-style: solid;
+}

@@ -10,6 +10,7 @@ fetch("https://raw.communitydragon.org/latest/cdragon/tft/en_us.json")
     });
     const traits = data.sets[8].traits.reduce((acc, curr) => {
       const name = curr.name;
+      curr.count = 0;
       acc[name] = curr;
       return acc;
     }, {});

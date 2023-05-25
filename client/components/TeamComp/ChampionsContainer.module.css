@@ -1,0 +1,13 @@
+.container > * {
+  margin: 5px;
+  border-image: linear-gradient(#f6b73c, rgb(229, 78, 208)) 40;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
