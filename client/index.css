@@ -93,3 +93,7 @@ body {
 * {
   color: rgb(149, 178, 205);
 }
+
+input {
+  color: black;
+}

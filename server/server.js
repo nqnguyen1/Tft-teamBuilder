@@ -2,23 +2,28 @@ require("dotenv").config();
 /* eslint no-unused-vars: 0 */
 const path = require("path");
 const express = require("express");
-const userController = require("./controllers/userController");
-const teamController = require("./controllers/teamController");
+const teamRouter = require("./routes/team");
+const userRouter = require("./routes/user");
+const mongoose = require("mongoose");
+const cookieParser = require("cookie-parser");
 
 const app = express();
 const port = 3000;
 
+const mongoURI = "mongodb://127.0.0.1/tftBuilder";
+
+mongoose.connect(mongoURI).then(() => {
+  console.log("connected");
+});
+
 app.use(express.static(path.resolve(__dirname, "../dist")));
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static("client"));
+app.use(cookieParser());
 
-app.get("/api/user/:username", userController.getUser, (req, res, next) => {
-  res.json(res.locals.matches);
-});
-
-app.get("/api/set8Data", teamController.getSetData, (req, res, next) => {
-  res.json(res.locals.setData);
-});
+app.use("/api/team", teamRouter);
+app.use("/api/user", userRouter);
 
 // app.post("/api/team", controller.createTeam)
 

@@ -15,6 +15,9 @@ fetch("https://raw.communitydragon.org/latest/cdragon/tft/en_us.json")
       return acc;
     }, {});
     setObj.traits = traits;
+    setObj.champions.forEach((element) => {
+      setObj[element.apiName] = element;
+    });
     const location = path.resolve("set8Data.json");
     fs.writeFileSync(location, JSON.stringify(setObj, null, 2));
   });

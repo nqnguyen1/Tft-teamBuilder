@@ -1328,5 +1328,345 @@
       "name": "Hacker",
       "count": 0
     }
+  },
+  "TFT8_Sylas": {
+    "apiName": "TFT8_Sylas",
+    "name": "Sylas",
+    "traits": ["Anima Squad", "Renegade"]
+  },
+  "TFT8_Nasus": {
+    "apiName": "TFT8_Nasus",
+    "name": "Nasus",
+    "traits": ["Anima Squad", "Mascot"]
+  },
+  "TFT8_Jinx": {
+    "apiName": "TFT8_Jinx",
+    "name": "Jinx",
+    "traits": ["Anima Squad", "Prankster"]
+  },
+  "TFT8_Vayne": {
+    "apiName": "TFT8_Vayne",
+    "name": "Vayne",
+    "traits": ["Anima Squad", "Duelist"]
+  },
+  "TFT8_Riven": {
+    "apiName": "TFT8_Riven",
+    "name": "Riven",
+    "traits": ["Anima Squad", "Brawler", "Defender"]
+  },
+  "TFT8_MissFortune": {
+    "apiName": "TFT8_MissFortune",
+    "name": "Miss Fortune",
+    "traits": ["Anima Squad", "Ace", "Quickdraw"]
+  },
+  "TFT8_Janna": {
+    "apiName": "TFT8_Janna",
+    "name": "Janna",
+    "traits": ["Forecaster", "Spellslinger"]
+  },
+  "TFT8_Lux": {
+    "apiName": "TFT8_Lux",
+    "name": "Lux",
+    "traits": ["Star Guardian", "Spellslinger"]
+  },
+  "TFT8_Nilah": {
+    "apiName": "TFT8_Nilah",
+    "name": "Nilah",
+    "traits": ["Star Guardian", "Duelist"]
+  },
+  "TFT8_Kaisa": {
+    "apiName": "TFT8_Kaisa",
+    "name": "Kai'Sa",
+    "traits": ["Star Guardian", "Quickdraw"]
+  },
+  "TFT8_Rell": {
+    "apiName": "TFT8_Rell",
+    "name": "Rell",
+    "traits": ["Star Guardian", "Defender"]
+  },
+  "TFT8_Ekko": {
+    "apiName": "TFT8_Ekko",
+    "name": "Ekko",
+    "traits": ["Star Guardian", "Prankster", "Aegis"]
+  },
+  "TFT8_Syndra": {
+    "apiName": "TFT8_Syndra",
+    "name": "Syndra",
+    "traits": ["Star Guardian", "Heart"]
+  },
+  "TFT8_Hecarim": {
+    "apiName": "TFT8_Hecarim",
+    "name": "Hackerim",
+    "traits": []
+  },
+  "TFT8_Draven": {
+    "apiName": "TFT8_Draven",
+    "name": "Draven",
+    "traits": ["Mecha:PRIME", "Ace"]
+  },
+  "TFT8_Leona": {
+    "apiName": "TFT8_Leona",
+    "name": "Leona",
+    "traits": ["Mecha:PRIME", "Renegade", "Aegis"]
+  },
+  "TFT8_Jax": {
+    "apiName": "TFT8_Jax",
+    "name": "Jax",
+    "traits": ["Mecha:PRIME", "Brawler"]
+  },
+  "TFT8_Ashe": {
+    "apiName": "TFT8_Ashe",
+    "name": "Ashe",
+    "traits": ["LaserCorps", "Sureshot"]
+  },
+  "TFT8_Mordekaiser": {
+    "apiName": "TFT8_Mordekaiser",
+    "name": "Mordekaiser",
+    "traits": ["LaserCorps", "Ace"]
+  },
+  "TFT8_Annie": {
+    "apiName": "TFT8_Annie",
+    "name": "Annie",
+    "traits": ["Gadgeteen", "Ox Force", "Spellslinger"]
+  },
+  "TFT8_Fiora": {
+    "apiName": "TFT8_Fiora",
+    "name": "Fiora",
+    "traits": ["Ox Force", "Duelist"]
+  },
+  "TFT8_Alistar": {
+    "apiName": "TFT8_Alistar",
+    "name": "Alistar",
+    "traits": ["Ox Force", "Mascot", "Aegis"]
+  },
+  "TFT8_Viego": {
+    "apiName": "TFT8_Viego",
+    "name": "Viego",
+    "traits": ["Ox Force", "Renegade", "Heart"]
+  },
+  "TFT8_Kayle": {
+    "apiName": "TFT8_Kayle",
+    "name": "Kayle",
+    "traits": ["Underground", "Duelist"]
+  },
+  "TFT8_Vi": {
+    "apiName": "TFT8_Vi",
+    "name": "Vi",
+    "traits": ["Underground", "Brawler", "Aegis"]
+  },
+  "TFT8_Samira": {
+    "apiName": "TFT8_Samira",
+    "name": "Samira",
+    "traits": ["Underground", "Sureshot", "Ace"]
+  },
+  "TFT8_Sona": {
+    "apiName": "TFT8_Sona",
+    "name": "Sona",
+    "traits": ["Underground", "Spellslinger", "Heart"]
+  },
+  "TFT8_Lulu": {
+    "apiName": "TFT8_Lulu",
+    "name": "Lulu",
+    "traits": ["Gadgeteen", "Heart"]
+  },
+  "TFT8_Nunu": {
+    "apiName": "TFT8_Nunu",
+    "name": "Nunu & Willump",
+    "traits": ["Gadgeteen", "Mascot"]
+  },
+  "TFT8_Blitzcrank": {
+    "apiName": "TFT8_Blitzcrank",
+    "name": "Blitzcrank",
+    "traits": ["A.D.M.I.N.", "Brawler"]
+  },
+  "TFT8_Camille": {
+    "apiName": "TFT8_Camille",
+    "name": "Camille",
+    "traits": ["A.D.M.I.N.", "Renegade"]
+  },
+  "TFT8_Gangplank": {
+    "apiName": "TFT8_Gangplank",
+    "name": "Gangplank",
+    "traits": ["Supers", "Duelist"]
+  },
+  "TFT8_LeeSin": {
+    "apiName": "TFT8_LeeSin",
+    "name": "Lee Sin",
+    "traits": ["Supers", "Heart", "Brawler"]
+  },
+  "TFT8_Malphite": {
+    "apiName": "TFT8_Malphite",
+    "name": "Malphite",
+    "traits": ["Supers", "Mascot"]
+  },
+  "TFT8_AurelionSol": {
+    "apiName": "TFT8_AurelionSol",
+    "name": "Aurelion Sol",
+    "traits": ["Threat"]
+  },
+  "TFT8_Rammus": {
+    "apiName": "TFT8_Rammus",
+    "name": "Rammus",
+    "traits": ["Threat"]
+  },
+  "TFT8_Zac": {
+    "apiName": "TFT8_Zac",
+    "name": "Zac",
+    "traits": []
+  },
+  "TFT8_Urgot": {
+    "apiName": "TFT8_Urgot",
+    "name": "Urgot",
+    "traits": ["Threat"]
+  },
+  "TFT8_Fiddlesticks": {
+    "apiName": "TFT8_Fiddlesticks",
+    "name": "Fiddlesticks",
+    "traits": ["Corrupted", "Threat"]
+  },
+  "TFT8_Boss_Urgot": {
+    "apiName": "TFT8_Boss_Urgot",
+    "name": "Giant Crabgot",
+    "traits": []
+  },
+  "TFT8_Yasuo": {
+    "apiName": "TFT8_Yasuo",
+    "name": "Yasuo",
+    "traits": ["LaserCorps", "Duelist"]
+  },
+  "TFT8_Boss_AurelionSol": {
+    "apiName": "TFT8_Boss_AurelionSol",
+    "name": "Volcanic Sol",
+    "traits": []
+  },
+  "TFT8_Poppy": {
+    "apiName": "TFT8_Poppy",
+    "name": "Poppy",
+    "traits": ["Gadgeteen", "Defender"]
+  },
+  "TFT8_Renekton": {
+    "apiName": "TFT8_Renekton",
+    "name": "Renekton",
+    "traits": ["LaserCorps", "Brawler"]
+  },
+  "TFT8_WuKong": {
+    "apiName": "TFT8_WuKong",
+    "name": "Wukong",
+    "traits": ["Mecha:PRIME", "Defender"]
+  },
+  "TFT8_Ezreal": {
+    "apiName": "TFT8_Ezreal",
+    "name": "Ezreal",
+    "traits": ["Underground", "Parallel", "Quickdraw"]
+  },
+  "TFT8_Leblanc": {
+    "apiName": "TFT8_Leblanc",
+    "name": "LeBlanc",
+    "traits": ["A.D.M.I.N.", "Spellslinger", "Hacker"]
+  },
+  "TFT6_ArchiveOfAugments": {
+    "apiName": "TFT6_ArchiveOfAugments",
+    "name": "Archive Of Augments",
+    "traits": []
+  },
+  "TFT8_PranksterDummy": {
+    "apiName": "TFT8_PranksterDummy",
+    "name": "Target Dummy",
+    "traits": []
+  },
+  "TFT6_MercenaryChest": {
+    "apiName": "TFT6_MercenaryChest",
+    "name": "Mercenary Chest",
+    "traits": []
+  },
+  "TFT8_Pantheon": {
+    "apiName": "TFT8_Pantheon",
+    "name": "Pantheon",
+    "traits": ["InfiniTeam", "Heart"]
+  },
+  "TFT8_Garen": {
+    "apiName": "TFT8_Garen",
+    "name": "Garen",
+    "traits": ["Mecha:PRIME", "Defender"]
+  },
+  "TFT8_Jhin": {
+    "apiName": "TFT8_Jhin",
+    "name": "Jhin",
+    "traits": ["Riftwalker", "Renegade"]
+  },
+  "TFT8_Lucian": {
+    "apiName": "TFT8_Lucian",
+    "name": "Lucian",
+    "traits": ["InfiniTeam", "Quickdraw", "Renegade"]
+  },
+  "TFT8_EzrealFuture": {
+    "apiName": "TFT8_EzrealFuture",
+    "name": "Ultimate Ezreal",
+    "traits": ["InfiniTeam", "Parallel", "Sureshot"]
+  },
+  "TFT8b_Sivir": {
+    "apiName": "TFT8b_Sivir",
+    "name": "Sivir",
+    "traits": ["InfiniTeam", "Sureshot"]
+  },
+  "TFT8_Warwick": {
+    "apiName": "TFT8_Warwick",
+    "name": "Warwick",
+    "traits": ["A.D.M.I.N.", "LaserCorps", "Brawler"]
+  },
+  "TFT8_Shen": {
+    "apiName": "TFT8_Shen",
+    "name": "Shen",
+    "traits": ["InfiniTeam", "Defender", "Hacker"]
+  },
+  "TFT8_TwistedFate": {
+    "apiName": "TFT8_TwistedFate",
+    "name": "Twisted Fate",
+    "traits": ["InfiniTeam", "Duelist", "Spellslinger"]
+  },
+  "TFT8_Neeko": {
+    "apiName": "TFT8_Neeko",
+    "name": "Neeko",
+    "traits": ["Star Guardian", "Spellslinger"]
+  },
+  "TFT8_Vex": {
+    "apiName": "TFT8_Vex",
+    "name": "Vex",
+    "traits": ["Riftwalker", "Mascot"]
+  },
+  "TFT8_Pyke": {
+    "apiName": "TFT8_Pyke",
+    "name": "Pyke",
+    "traits": ["Riftwalker", "Hacker"]
+  },
+  "TFT8_Morgana": {
+    "apiName": "TFT8_Morgana",
+    "name": "Morgana",
+    "traits": ["Threat"]
+  },
+  "TFT8_Aatrox": {
+    "apiName": "TFT8_Aatrox",
+    "name": "Aatrox",
+    "traits": ["Threat"]
+  },
+  "TFT8_GnarBig": {
+    "apiName": "TFT8_GnarBig",
+    "name": "Gnar",
+    "traits": ["Gadgeteen", "Prankster"]
+  },
+  "TFT8_BelVeth": {
+    "apiName": "TFT8_BelVeth",
+    "name": "Bel'Veth",
+    "traits": ["Threat"]
+  },
+  "TFT8_CorruptedEgg": {
+    "apiName": "TFT8_CorruptedEgg",
+    "name": "Glitched Egg",
+    "traits": []
+  },
+  "TFT8_Boss_Morgana": {
+    "apiName": "TFT8_Boss_Morgana",
+    "name": "Nemesis Morgana",
+    "traits": []
   }
 }
