@@ -1,50 +1,13 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import UserProfile from "./UserProfile";
+import React, { useContext } from "react";
+import AuthContext from "../store/auth-context";
 
 export default function Home() {
-  const navigate = useNavigate();
-  function loginHandler(e) {
-    e.preventDefault();
-    const username = e.target[0].value;
-    const password = e.target[1].value;
-    fetch("/api/user/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "Application/JSON",
-      },
-      body: JSON.stringify({ username, password }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data) {
-          navigate("/savecomp");
-        } else {
-          alert("WRONG USERNAME OR PASSWORD");
-        }
-      });
-  }
-  function signupHandler(e) {
-    e.preventDefault();
-    const username = e.target[0].value;
-    const password = e.target[1].value;
-    fetch("/api/user/signup", {
-      method: "POST",
-      headers: {
-        "Content-Type": "Application/JSON",
-      },
-      body: JSON.stringify({ username, password }),
-    }).then((data) => {
-      {
-        navigate("/savecomp");
-      }
-    });
-  }
+  const ctx = useContext(AuthContext);
   return (
     <>
       <h1>My Home Page</h1>
       <form
-        onSubmit={loginHandler}
+        onSubmit={ctx.onLogIn}
         style={{
           display: "flex",
           flexDirection: "column",
@@ -60,7 +23,7 @@ export default function Home() {
         <button type="submit">Log In</button>
       </form>
       <form
-        onSubmit={signupHandler}
+        onSubmit={ctx.onSignUp}
         style={{
           display: "flex",
           flexDirection: "column",
