@@ -8,6 +8,8 @@ router.post("/login", userController.login, (req, res, next) => {
 
 router.post("/signup", userController.signup);
 
-router.get("/:username", userController.getUser);
+router.get("/:username", userController.getUser, (req, res, next) => {
+  res.json(res.locals.matches);
+});
 
 module.exports = router;

@@ -10,7 +10,7 @@ export default function Root() {
   return (
     <>
       <MainNav></MainNav>
-      {ctx.user ? <Outlet></Outlet> : <Home></Home>}
+      <Outlet></Outlet>
     </>
   );
 }

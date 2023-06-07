@@ -42,6 +42,7 @@ const getUserByName = async (name) => {
 
 userController.getUser = async (req, res, next) => {
   //fakeApiCall
+  console.log("IN HERE");
   const location = path.resolve("test.json");
   res.locals.matches = JSON.parse(fs.readFileSync(location));
   next();
