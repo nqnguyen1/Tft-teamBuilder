@@ -40,45 +40,46 @@ const getUserByName = async (name) => {
   );
 };
 
-userController.getUser = async (req, res, next) => {
-  //fakeApiCall
-  const location = path.resolve("test.json");
-  res.locals.matches = JSON.parse(fs.readFileSync(location));
-  next();
-};
-
 // userController.getUser = async (req, res, next) => {
-//   console.log(process.env.RIOT_API_KEY);
-//   //real live serv
-//   const userData = await getUserByName(req.params.username);
-//   console.log(userData);
-//   const matchId = await getMatchHistory(userData.puuid);
-//   const matchesData = [];
-
-//   for (const id of matchId) {
-//     const matchData = await getMatchData(id);
-//     const playersData = [];
-//     for (const data of matchData.info.participants) {
-//       const player = {};
-//       const account = await getUserByPUUID(data.puuid);
-//       player.name = account.name;
-//       player.placement = data.placement;
-//       player.traits = data.traits;
-//       player.units = data.units.map((unit) => {
-//         return {
-//           name: unit.character_id,
-//           items: unit.itemNames,
-//           path: `/champions/${unit.character_id}`,
-//         };
-//       });
-//       playersData.push(player);
-//     }
-//     matchesData.push(playersData);
-//   }
-
-//   res.locals.matches = matchesData;
+//   //fakeApiCall
+//   const location = path.resolve("userCache.json");
+//   res.locals.matches = JSON.parse(fs.readFileSync(location));
 //   next();
 // };
+
+userController.getUser = async (req, res, next) => {
+  //real live serv
+  const userData = await getUserByName(req.params.username);
+  console.log(userData);
+  const matchId = await getMatchHistory(userData.puuid);
+  const matchesData = [];
+
+  for (const id of matchId) {
+    const matchData = await getMatchData(id);
+    const playersData = [];
+    for (const data of matchData.info.participants) {
+      const player = {};
+      const account = await getUserByPUUID(data.puuid);
+      player.name = account.name;
+      player.placement = data.placement;
+      player.traits = data.traits;
+      player.units = data.units.map((unit) => {
+        return {
+          name: unit.character_id,
+          items: unit.itemNames,
+          path: `/champions/${unit.character_id}`,
+        };
+      });
+      playersData.push(player);
+    }
+    matchesData.push(playersData);
+  }
+
+  res.locals.matches = matchesData;
+  // const location = path.resolve("userCache.json");
+  // fs.writeFileSync(location, JSON.stringify(matchesData, null, 2)); //to cache user data for testing
+  next();
+};
 
 userController.login = async (req, res, next) => {
   passport.authenticate("local", (err, user, info) => {
@@ -89,7 +90,6 @@ userController.login = async (req, res, next) => {
     else {
       req.logIn(user, (err) => {
         if (err) throw err;
-
         res.json(req.user);
       });
     }
@@ -103,6 +103,12 @@ userController.signup = async (req, res, next) => {
     if (err) throw err;
     res.json(user);
   });
+};
+
+userController.getChampion = async (req, res, next) => {
+  const location = path.resolve("tft-champion.json");
+  res.locals.champions = fs.readFileSync(location);
+  next();
 };
 
 module.exports = userController;

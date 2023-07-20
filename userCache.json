@@ -1,0 +1,5344 @@
+[
+  [
+    {
+      "name": "Mackadelic",
+      "placement": 1,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Darkin",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 6,
+          "style": 4,
+          "tier_current": 5,
+          "tier_total": 5
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Kayle",
+          "items": [],
+          "path": "/champions/TFT9_Kayle"
+        },
+        {
+          "name": "TFT9_Kled",
+          "items": [],
+          "path": "/champions/TFT9_Kled"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Zed",
+          "items": [
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_TitansResolve",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Zed"
+        },
+        {
+          "name": "TFT9_Darius",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Darius"
+        },
+        {
+          "name": "TFT9_Katarina",
+          "items": [
+            "TFT9_Item_SlayerEmblem",
+            "TFT_Item_ArchangelsStaff",
+            "TFT_Item_RabadonsDeathcap"
+          ],
+          "path": "/champions/TFT9_Katarina"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_RabadonsDeathcap"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aatrox",
+          "items": [
+            "TFT_Item_Zephyr"
+          ],
+          "path": "/champions/TFT9_Aatrox"
+        }
+      ]
+    },
+    {
+      "name": "Macheweenie",
+      "placement": 3,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 3,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 5,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Taliyah",
+          "items": [],
+          "path": "/champions/TFT9_Taliyah"
+        },
+        {
+          "name": "TFT9_Ashe",
+          "items": [
+            "TFT_Item_Shroud"
+          ],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Akshan",
+          "items": [
+            "TFT_Item_RunaansHurricane",
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_MadredsBloodrazor"
+          ],
+          "path": "/champions/TFT9_Akshan"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [
+            "TFT_Item_Morellonomicon"
+          ],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT9_Item_ShurimaEmblem",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_Chalice"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_ArchangelsStaff"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [],
+          "path": "/champions/TFT9_Nasus"
+        }
+      ]
+    },
+    {
+      "name": "Fiszere",
+      "placement": 5,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 4,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 3,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Ashe",
+          "items": [
+            "TFT9_Item_TargonEmblem"
+          ],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Akshan",
+          "items": [
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Akshan"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [
+            "TFT_Item_Chalice"
+          ],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT_Item_LocketOfTheIronSolari"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_FrozenHeart"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_Urgot",
+          "items": [],
+          "path": "/champions/TFT9_Urgot"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_Redemption",
+            "TFT_Item_BrambleVest"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aphelios",
+          "items": [
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_RunaansHurricane"
+          ],
+          "path": "/champions/TFT9_Aphelios"
+        }
+      ]
+    },
+    {
+      "name": "Risky Moves",
+      "placement": 2,
+      "traits": [
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 4,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Poppy",
+          "items": [],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [
+            "TFT9_Item_DemaciaEmblem"
+          ],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Soraka",
+          "items": [],
+          "path": "/champions/TFT9_Soraka"
+        },
+        {
+          "name": "TFT9_Kassadin",
+          "items": [
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Kassadin"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT9_Item_PreserverEmblem",
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT9_Item_TargonEmblem",
+            "TFT_Item_DragonsClaw"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aphelios",
+          "items": [],
+          "path": "/champions/TFT9_Aphelios"
+        },
+        {
+          "name": "TFT9_KSante",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_TitansResolve",
+            "TFT_Item_LastWhisper"
+          ],
+          "path": "/champions/TFT9_KSante"
+        }
+      ]
+    },
+    {
+      "name": "YsòMad",
+      "placement": 6,
+      "traits": [
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 3,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Poppy",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Kayle",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Kayle"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Kled",
+          "items": [],
+          "path": "/champions/TFT9_Kled"
+        },
+        {
+          "name": "TFT9_Teemo",
+          "items": [
+            "TFT9_Item_SlayerEmblem"
+          ],
+          "path": "/champions/TFT9_Teemo"
+        },
+        {
+          "name": "TFT9_Kassadin",
+          "items": [],
+          "path": "/champions/TFT9_Kassadin"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_JeweledGauntlet",
+            "TFT9_Item_BastionEmblem"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [],
+          "path": "/champions/TFT9_JarvanIV"
+        }
+      ]
+    },
+    {
+      "name": "idc bro",
+      "placement": 8,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [
+            "TFT9_Item_ChallengerEmblem"
+          ],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Zed",
+          "items": [],
+          "path": "/champions/TFT9_Zed"
+        },
+        {
+          "name": "TFT9_Kalista",
+          "items": [],
+          "path": "/champions/TFT9_Kalista"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_SpearOfShojin",
+            "TFT9_Item_IoniaEmblem",
+            "TFT_Item_JeweledGauntlet"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_PowerGauntlet"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_Ahri",
+          "items": [
+            "TFT_Item_RabadonsDeathcap",
+            "TFT_Item_SpearOfShojin",
+            "TFT_Item_MadredsBloodrazor"
+          ],
+          "path": "/champions/TFT9_Ahri"
+        }
+      ]
+    },
+    {
+      "name": "zúmi",
+      "placement": 7,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 5,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Empress",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [
+            "TFT_Item_TearOfTheGoddess"
+          ],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Zed",
+          "items": [],
+          "path": "/champions/TFT9_Zed"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT9_Item_ChallengerEmblem",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_IonicSpark"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT9_Item_IoniaEmblem",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_SpearOfShojin"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_Zephyr"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_BelVeth",
+          "items": [
+            "TFT9_Item_ChallengerEmblem",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_BelVeth"
+        }
+      ]
+    },
+    {
+      "name": "lvl 9 rush",
+      "placement": 4,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Redeemer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 6,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Jinx",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_Quicksilver"
+          ],
+          "path": "/champions/TFT9_Jinx"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Jayce",
+          "items": [
+            "TFT_Item_ZekesHerald",
+            "TFT_Item_ZekesHerald",
+            "TFT_Item_Shroud"
+          ],
+          "path": "/champions/TFT9_Jayce"
+        },
+        {
+          "name": "TFT9_Ekko",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_IonicSpark"
+          ],
+          "path": "/champions/TFT9_Ekko"
+        },
+        {
+          "name": "TFT9_Garen",
+          "items": [],
+          "path": "/champions/TFT9_Garen"
+        },
+        {
+          "name": "TFT9_Urgot",
+          "items": [
+            "TFT_Item_TitansResolve",
+            "TFT_Item_FrozenHeart",
+            "TFT9_Item_ArmorcladEmblem"
+          ],
+          "path": "/champions/TFT9_Urgot"
+        },
+        {
+          "name": "TFT9_Zeri",
+          "items": [
+            "TFT_Item_PowerGauntlet",
+            "TFT_Item_Deathblade"
+          ],
+          "path": "/champions/TFT9_Zeri"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT9_Item_ZaunEmblem"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        },
+        {
+          "name": "TFT9_Senna",
+          "items": [],
+          "path": "/champions/TFT9_Senna"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "pp my pants uwu",
+      "placement": 3,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 4,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Samira",
+          "items": [],
+          "path": "/champions/TFT9_Samira"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_BrambleVest",
+            "TFT_Item_WarmogsArmor"
+          ],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Kalista",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT9_Item_IoniaEmblem"
+          ],
+          "path": "/champions/TFT9_Kalista"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_NegatronCloak",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_SpearOfShojin",
+            "TFT_Item_PowerGauntlet",
+            "TFT_Item_SeraphsEmbrace"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_RedBuff",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "aizuru",
+      "placement": 8,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Kalista",
+          "items": [],
+          "path": "/champions/TFT9_Kalista"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "imprôve",
+      "placement": 6,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Kalista",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_LastWhisper"
+          ],
+          "path": "/champions/TFT9_Kalista"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_SeraphsEmbrace",
+            "TFT_Item_IonicSpark"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_Chalice"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_TitansResolve",
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_GuardianAngel"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "Hqwxuz",
+      "placement": 7,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Darkin",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Empress",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Redeemer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Wanderer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_Aatrox",
+          "items": [],
+          "path": "/champions/TFT9_Aatrox"
+        },
+        {
+          "name": "TFT9_Sion",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_RedBuff",
+            "TFT_Item_WarmogsArmor"
+          ],
+          "path": "/champions/TFT9_Sion"
+        },
+        {
+          "name": "TFT9_Senna",
+          "items": [],
+          "path": "/champions/TFT9_Senna"
+        },
+        {
+          "name": "TFT9_RyzeShadowIsles",
+          "items": [],
+          "path": "/champions/TFT9_RyzeShadowIsles"
+        },
+        {
+          "name": "TFT9_BelVeth",
+          "items": [
+            "TFT9_Item_IoniaEmblem",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_BelVeth"
+        }
+      ]
+    },
+    {
+      "name": "fireboix123",
+      "placement": 1,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Redeemer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 5,
+          "style": 4,
+          "tier_current": 4,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Technogenius",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Teemo",
+          "items": [],
+          "path": "/champions/TFT9_Teemo"
+        },
+        {
+          "name": "TFT9_Taliyah",
+          "items": [
+            "TFT9_Item_StrategistEmblem"
+          ],
+          "path": "/champions/TFT9_Taliyah"
+        },
+        {
+          "name": "TFT9_Swain",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_EmptyBag",
+            "TFT_Item_EmptyBag"
+          ],
+          "path": "/champions/TFT9_Swain"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_BrambleVest"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        },
+        {
+          "name": "TFT9_Senna",
+          "items": [
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_LastWhisper",
+            "TFT_Item_StatikkShiv"
+          ],
+          "path": "/champions/TFT9_Senna"
+        },
+        {
+          "name": "TFT9_Heimerdinger",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_EmptyBag",
+            "TFT_Item_EmptyBag"
+          ],
+          "path": "/champions/TFT9_Heimerdinger"
+        },
+        {
+          "name": "TFT9_HeimerdingerTurret",
+          "items": [
+            "TFT9_HeimerUpgrade_Goldification",
+            "TFT9_HeimerUpgrade_Goldification",
+            "TFT9_HeimerUpgrade_MicroRockets"
+          ],
+          "path": "/champions/TFT9_HeimerdingerTurret"
+        }
+      ]
+    },
+    {
+      "name": "Jay Amberlyn",
+      "placement": 4,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 5,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 3,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Poppy",
+          "items": [
+            "TFT_Item_Redemption",
+            "TFT_Item_GargoyleStoneplate"
+          ],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Kayle",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Kayle"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [
+            "TFT9_Item_DemaciaEmblem",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Kled",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_PowerGauntlet",
+            "TFT_Item_Shroud"
+          ],
+          "path": "/champions/TFT9_Kled"
+        },
+        {
+          "name": "TFT9_Teemo",
+          "items": [
+            "TFT_Item_ZekesHerald"
+          ],
+          "path": "/champions/TFT9_Teemo"
+        },
+        {
+          "name": "TFT9_Garen",
+          "items": [
+            "TFT_Item_BrambleVest",
+            "TFT9_Item_BrawlerEmblem"
+          ],
+          "path": "/champions/TFT9_Garen"
+        },
+        {
+          "name": "TFT9_Sona",
+          "items": [
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_SpearOfShojin"
+          ],
+          "path": "/champions/TFT9_Sona"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [],
+          "path": "/champions/TFT9_Gwen"
+        }
+      ]
+    },
+    {
+      "name": "Fiszere",
+      "placement": 2,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Wanderer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Soraka",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Soraka"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_RabadonsDeathcap"
+          ],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Karma",
+          "items": [
+            "TFT_Item_ArchangelsStaff",
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_JeweledGauntlet"
+          ],
+          "path": "/champions/TFT9_Karma"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_TitanicHydra",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_WarmogsArmor"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_Deathblade",
+            "TFT9_Item_PreserverEmblem",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_RyzeShadowIsles",
+          "items": [],
+          "path": "/champions/TFT9_RyzeShadowIsles"
+        }
+      ]
+    },
+    {
+      "name": "bwest456",
+      "placement": 5,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 4,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Ashe",
+          "items": [],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Akshan",
+          "items": [
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_Deathblade",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Akshan"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_Redemption",
+            "TFT_Item_WarmogsArmor"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_HextechGunblade",
+            "TFT_Item_StatikkShiv",
+            "TFT_Item_RabadonsDeathcap"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_FrozenHeart",
+            "TFT_Item_Bloodthirster"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        },
+        {
+          "name": "TFT9_Sion",
+          "items": [
+            "TFT9_Item_FreljordEmblem"
+          ],
+          "path": "/champions/TFT9_Sion"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "PlainInsanity",
+      "placement": 4,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 3,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Swain",
+          "items": [],
+          "path": "/champions/TFT9_Swain"
+        },
+        {
+          "name": "TFT9_Garen",
+          "items": [],
+          "path": "/champions/TFT9_Garen"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT4_Item_OrnnObsidianCleaver",
+            "TFT4_Item_OrnnAnimaVisage"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Lux",
+          "items": [
+            "TFT_Item_SpearOfShojin",
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Lux"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_GargoyleStoneplate"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        },
+        {
+          "name": "TFT9_KSante",
+          "items": [
+            "TFT_Item_NegatronCloak"
+          ],
+          "path": "/champions/TFT9_KSante"
+        }
+      ]
+    },
+    {
+      "name": "DarkFire",
+      "placement": 6,
+      "traits": [
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Poppy",
+          "items": [
+            "TFT_Item_Redemption",
+            "TFT4_Item_OrnnEternalWinter",
+            "TFT_Item_DragonsClaw"
+          ],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Kayle",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_MadredsBloodrazor"
+          ],
+          "path": "/champions/TFT9_Kayle"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [
+            "TFT4_Item_OrnnAnimaVisage",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Kled",
+          "items": [],
+          "path": "/champions/TFT9_Kled"
+        },
+        {
+          "name": "TFT9_Teemo",
+          "items": [],
+          "path": "/champions/TFT9_Teemo"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT_Item_Chalice"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        }
+      ]
+    },
+    {
+      "name": "Fiszere",
+      "placement": 8,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_ChoGath",
+          "items": [],
+          "path": "/champions/TFT9_ChoGath"
+        },
+        {
+          "name": "TFT9_Malzahar",
+          "items": [
+            "TFT9_Item_PreserverEmblem"
+          ],
+          "path": "/champions/TFT9_Malzahar"
+        },
+        {
+          "name": "TFT9_Kassadin",
+          "items": [],
+          "path": "/champions/TFT9_Kassadin"
+        },
+        {
+          "name": "tft9_reksai",
+          "items": [],
+          "path": "/champions/tft9_reksai"
+        },
+        {
+          "name": "TFT9_Jayce",
+          "items": [
+            "TFT9_Item_VoidEmblem"
+          ],
+          "path": "/champions/TFT9_Jayce"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_ArchangelsStaff",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_JeweledGauntlet"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "Yuuj",
+      "placement": 2,
+      "traits": [
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 6,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Redeemer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Technogenius",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Tristana",
+          "items": [
+            "TFT_Item_LastWhisper",
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_PowerGauntlet"
+          ],
+          "path": "/champions/TFT9_Tristana"
+        },
+        {
+          "name": "TFT9_Poppy",
+          "items": [
+            "TFT_Item_NegatronCloak"
+          ],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_Redemption",
+            "TFT_Item_WarmogsArmor"
+          ],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Jinx",
+          "items": [],
+          "path": "/champions/TFT9_Jinx"
+        },
+        {
+          "name": "TFT9_Ekko",
+          "items": [],
+          "path": "/champions/TFT9_Ekko"
+        },
+        {
+          "name": "TFT9_Zeri",
+          "items": [
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Zeri"
+        },
+        {
+          "name": "TFT9_Senna",
+          "items": [
+            "TFT_Item_SpearOfShojin"
+          ],
+          "path": "/champions/TFT9_Senna"
+        },
+        {
+          "name": "TFT9_Heimerdinger",
+          "items": [],
+          "path": "/champions/TFT9_Heimerdinger"
+        },
+        {
+          "name": "TFT9_HeimerdingerTurret",
+          "items": [
+            "TFT9_HeimerUpgrade_MicroRockets",
+            "TFT9_HeimerUpgrade_ShrinkRay",
+            "TFT9_HeimerUpgrade_ShrinkRay"
+          ],
+          "path": "/champions/TFT9_HeimerdingerTurret"
+        }
+      ]
+    },
+    {
+      "name": "WoooHooo",
+      "placement": 3,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 3,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Ashe",
+          "items": [],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT4_Item_OrnnEternalWinter",
+            "TFT_Item_RecurveBow"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_Chalice",
+            "TFT_Item_RabadonsDeathcap"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_Urgot",
+          "items": [
+            "TFT_Item_PowerGauntlet",
+            "TFT4_Item_OrnnDeathsDefiance",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Urgot"
+        },
+        {
+          "name": "TFT9_Zeri",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Zeri"
+        },
+        {
+          "name": "TFT9_Ahri",
+          "items": [
+            "TFT_Item_ArchangelsStaff",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_SpearOfShojin"
+          ],
+          "path": "/champions/TFT9_Ahri"
+        },
+        {
+          "name": "TFT9_Sion",
+          "items": [
+            "TFT4_Item_OrnnDeathsDefiance",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_Sion"
+        }
+      ]
+    },
+    {
+      "name": "jacky ng",
+      "placement": 5,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 3,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Jhin",
+          "items": [],
+          "path": "/champions/TFT9_Jhin"
+        },
+        {
+          "name": "TFT9_Ashe",
+          "items": [],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_FrozenHeart",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_Urgot",
+          "items": [],
+          "path": "/champions/TFT9_Urgot"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aphelios",
+          "items": [
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Aphelios"
+        }
+      ]
+    },
+    {
+      "name": "Dreamvillain",
+      "placement": 7,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Samira",
+          "items": [],
+          "path": "/champions/TFT9_Samira"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Kalista",
+          "items": [],
+          "path": "/champions/TFT9_Kalista"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_SpearOfShojin"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT9_Item_ChallengerEmblem",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "DineNasty",
+      "placement": 1,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Darkin",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 5,
+          "style": 3,
+          "tier_current": 4,
+          "tier_total": 5
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Kled",
+          "items": [
+            "TFT_Item_ZekesHerald"
+          ],
+          "path": "/champions/TFT9_Kled"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Zed",
+          "items": [
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Zed"
+        },
+        {
+          "name": "TFT9_Darius",
+          "items": [],
+          "path": "/champions/TFT9_Darius"
+        },
+        {
+          "name": "TFT9_Katarina",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT9_Item_SlayerEmblem"
+          ],
+          "path": "/champions/TFT9_Katarina"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_ChainVest"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aatrox",
+          "items": [],
+          "path": "/champions/TFT9_Aatrox"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "lrishLad",
+      "placement": 1,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Cassiopeia",
+          "items": [],
+          "path": "/champions/TFT9_Cassiopeia"
+        },
+        {
+          "name": "TFT9_Kled",
+          "items": [],
+          "path": "/champions/TFT9_Kled"
+        },
+        {
+          "name": "TFT9_Swain",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_IonicSpark",
+            "TFT_Item_DragonsClaw"
+          ],
+          "path": "/champions/TFT9_Swain"
+        },
+        {
+          "name": "TFT9_Darius",
+          "items": [
+            "TFT_Item_TitansResolve",
+            "TFT_Item_TitansResolve",
+            "TFT_Item_Bloodthirster"
+          ],
+          "path": "/champions/TFT9_Darius"
+        },
+        {
+          "name": "TFT9_Ekko",
+          "items": [],
+          "path": "/champions/TFT9_Ekko"
+        },
+        {
+          "name": "TFT9_Katarina",
+          "items": [
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_MadredsBloodrazor"
+          ],
+          "path": "/champions/TFT9_Katarina"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_MadredsBloodrazor"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT9_Item_NoxusEmblem",
+            "TFT_Item_TitansResolve",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        }
+      ]
+    },
+    {
+      "name": "Fiszere",
+      "placement": 8,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Karma",
+          "items": [],
+          "path": "/champions/TFT9_Karma"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT9_Item_IoniaEmblem"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_GiantsBelt"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_RapidFireCannon",
+            "TFT_Item_GuardianAngel",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "WAII EYE KNEE",
+      "placement": 5,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 3,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Ashe",
+          "items": [],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_Urgot",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Urgot"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_ArchangelsStaff",
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT_Item_Zephyr"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_BrambleVest",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        }
+      ]
+    },
+    {
+      "name": "Parchie44",
+      "placement": 6,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Jinx",
+          "items": [
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_LastWhisper",
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Jinx"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Jayce",
+          "items": [],
+          "path": "/champions/TFT9_Jayce"
+        },
+        {
+          "name": "TFT9_Urgot",
+          "items": [
+            "TFT9_Item_TrickshotEmblem"
+          ],
+          "path": "/champions/TFT9_Urgot"
+        },
+        {
+          "name": "TFT9_Zeri",
+          "items": [
+            "TFT9_Item_ChallengerEmblem",
+            "TFT_Item_RunaansHurricane"
+          ],
+          "path": "/champions/TFT9_Zeri"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_FrozenHeart"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_BrambleVest"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        }
+      ]
+    },
+    {
+      "name": "Purps133",
+      "placement": 4,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Empress",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_StatikkShiv",
+            "TFT_Item_UnstableConcoction",
+            "TFT_Item_SpearOfShojin"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_LastWhisper",
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_Sion",
+          "items": [],
+          "path": "/champions/TFT9_Sion"
+        },
+        {
+          "name": "TFT9_KSante",
+          "items": [
+            "TFT_Item_DragonsClaw",
+            "TFT_Item_FrozenHeart",
+            "TFT_Item_RecurveBow"
+          ],
+          "path": "/champions/TFT9_KSante"
+        },
+        {
+          "name": "TFT9_BelVeth",
+          "items": [
+            "TFT_Item_TitansResolve",
+            "TFT_Item_Bloodthirster",
+            "TFT9_Item_OrnnHullbreaker"
+          ],
+          "path": "/champions/TFT9_BelVeth"
+        }
+      ]
+    },
+    {
+      "name": "TK 24 johnny",
+      "placement": 2,
+      "traits": [
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 4,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 5,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Technogenius",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Renekton",
+          "items": [],
+          "path": "/champions/TFT9_Renekton"
+        },
+        {
+          "name": "TFT9_Ashe",
+          "items": [
+            "TFT9_Item_ShurimaEmblem"
+          ],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Akshan",
+          "items": [
+            "TFT_Item_Deathblade",
+            "TFT_Item_RunaansHurricane",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Akshan"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_HextechGunblade"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Heimerdinger",
+          "items": [
+            "TFT_Item_RecurveBow"
+          ],
+          "path": "/champions/TFT9_Heimerdinger"
+        },
+        {
+          "name": "TFT9_KSante",
+          "items": [
+            "TFT9_Item_FreljordEmblem"
+          ],
+          "path": "/champions/TFT9_KSante"
+        },
+        {
+          "name": "TFT9_HeimerdingerTurret",
+          "items": [
+            "TFT9_HeimerUpgrade_ShrinkRay",
+            "TFT9_HeimerUpgrade_SelfRepair"
+          ],
+          "path": "/champions/TFT9_HeimerdingerTurret"
+        }
+      ]
+    },
+    {
+      "name": "WiseLunchbox",
+      "placement": 7,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Rogue",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 4,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 4,
+          "style": 4,
+          "tier_current": 3,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Viego",
+          "items": [],
+          "path": "/champions/TFT9_Viego"
+        },
+        {
+          "name": "TFT9_Maokai",
+          "items": [
+            "TFT9_Item_TargonEmblem"
+          ],
+          "path": "/champions/TFT9_Maokai"
+        },
+        {
+          "name": "TFT9_Soraka",
+          "items": [],
+          "path": "/champions/TFT9_Soraka"
+        },
+        {
+          "name": "TFT9_Kalista",
+          "items": [
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Kalista"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT9_Item_ChallengerEmblem",
+            "TFT_Item_JeweledGauntlet"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aphelios",
+          "items": [],
+          "path": "/champions/TFT9_Aphelios"
+        }
+      ]
+    },
+    {
+      "name": "jikideki",
+      "placement": 3,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Darkin",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Empress",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Redeemer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Technogenius",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Wanderer",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Gwen",
+          "items": [],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Aatrox",
+          "items": [
+            "TFT9_Item_OrnnPrototypeForge",
+            "TFT4_Item_OrnnEternalWinter",
+            "TFT4_Item_OrnnDeathsDefiance"
+          ],
+          "path": "/champions/TFT9_Aatrox"
+        },
+        {
+          "name": "TFT9_Ahri",
+          "items": [],
+          "path": "/champions/TFT9_Ahri"
+        },
+        {
+          "name": "TFT9_Senna",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_SpearOfShojin",
+            "TFT_Item_RunaansHurricane"
+          ],
+          "path": "/champions/TFT9_Senna"
+        },
+        {
+          "name": "TFT9_Heimerdinger",
+          "items": [
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Heimerdinger"
+        },
+        {
+          "name": "TFT9_KSante",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_DragonsClaw"
+          ],
+          "path": "/champions/TFT9_KSante"
+        },
+        {
+          "name": "TFT9_RyzeShadowIsles",
+          "items": [],
+          "path": "/champions/TFT9_RyzeShadowIsles"
+        },
+        {
+          "name": "TFT9_BelVeth",
+          "items": [
+            "TFT_Item_Deathblade",
+            "TFT_Item_TitansResolve",
+            "TFT_Item_Bloodthirster"
+          ],
+          "path": "/champions/TFT9_BelVeth"
+        },
+        {
+          "name": "TFT9_HeimerdingerTurret",
+          "items": [
+            "TFT9_HeimerUpgrade_MicroRockets",
+            "TFT9_HeimerUpgrade_ShrinkRay",
+            "TFT9_HeimerUpgrade_ShrinkRay"
+          ],
+          "path": "/champions/TFT9_HeimerdingerTurret"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "GGO Sinon",
+      "placement": 7,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 6,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_ShadowIsles",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Poppy",
+          "items": [
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Kayle",
+          "items": [
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_GuinsoosRageblade"
+          ],
+          "path": "/champions/TFT9_Kayle"
+        },
+        {
+          "name": "TFT9_Garen",
+          "items": [],
+          "path": "/champions/TFT9_Garen"
+        },
+        {
+          "name": "TFT9_Sona",
+          "items": [],
+          "path": "/champions/TFT9_Sona"
+        },
+        {
+          "name": "TFT9_Gwen",
+          "items": [
+            "TFT_Item_Bloodthirster",
+            "TFT_Item_InfinityEdge"
+          ],
+          "path": "/champions/TFT9_Gwen"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT_Item_Redemption",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Lux",
+          "items": [],
+          "path": "/champions/TFT9_Lux"
+        }
+      ]
+    },
+    {
+      "name": "JakyChan",
+      "placement": 1,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Darkin",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Slayer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 5
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Swain",
+          "items": [],
+          "path": "/champions/TFT9_Swain"
+        },
+        {
+          "name": "TFT9_Karma",
+          "items": [],
+          "path": "/champions/TFT9_Karma"
+        },
+        {
+          "name": "TFT9_Garen",
+          "items": [],
+          "path": "/champions/TFT9_Garen"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT_Item_WarmogsArmor"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [
+            "TFT_Item_RedBuff",
+            "TFT_Item_FrozenHeart",
+            "TFT_Item_Redemption"
+          ],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_ThiefsGloves",
+            "TFT_Item_EmptyBag",
+            "TFT_Item_EmptyBag"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Lux",
+          "items": [
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_JeweledGauntlet"
+          ],
+          "path": "/champions/TFT9_Lux"
+        },
+        {
+          "name": "TFT9_Aatrox",
+          "items": [],
+          "path": "/champions/TFT9_Aatrox"
+        },
+        {
+          "name": "TFT9_Ahri",
+          "items": [
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_SeraphsEmbrace"
+          ],
+          "path": "/champions/TFT9_Ahri"
+        }
+      ]
+    },
+    {
+      "name": "Mochibunny1768",
+      "placement": 8,
+      "traits": [
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Marksman",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 3,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Tristana",
+          "items": [
+            "TFT_Item_StatikkShiv"
+          ],
+          "path": "/champions/TFT9_Tristana"
+        },
+        {
+          "name": "TFT9_Poppy",
+          "items": [],
+          "path": "/champions/TFT9_Poppy"
+        },
+        {
+          "name": "TFT9_Teemo",
+          "items": [
+            "TFT_Item_JeweledGauntlet",
+            "TFT9_Item_OrnnDeathfireGrasp",
+            "TFT_Item_TearOfTheGoddess"
+          ],
+          "path": "/champions/TFT9_Teemo"
+        },
+        {
+          "name": "TFT9_Swain",
+          "items": [
+            "TFT_Item_IonicSpark",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Swain"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [],
+          "path": "/champions/TFT9_Azir"
+        }
+      ]
+    },
+    {
+      "name": "Chord Maven",
+      "placement": 3,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 3,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Empress",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Multicaster",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_ChoGath",
+          "items": [],
+          "path": "/champions/TFT9_ChoGath"
+        },
+        {
+          "name": "TFT9_Kassadin",
+          "items": [
+            "TFT_Item_NeedlesslyLargeRod"
+          ],
+          "path": "/champions/TFT9_Kassadin"
+        },
+        {
+          "name": "tft9_reksai",
+          "items": [
+            "TFT_Item_GargoyleStoneplate"
+          ],
+          "path": "/champions/tft9_reksai"
+        },
+        {
+          "name": "TFT9_VelKoz",
+          "items": [],
+          "path": "/champions/TFT9_VelKoz"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT_Item_GiantsBelt",
+            "TFT_Item_FrozenHeart"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_ArchangelsStaff",
+            "TFT_Item_JeweledGauntlet"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_RapidFireCannon"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_BelVeth",
+          "items": [
+            "TFT_Item_Deathblade",
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_BelVeth"
+        }
+      ]
+    },
+    {
+      "name": "lil Zming",
+      "placement": 5,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 3,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Shurima",
+          "num_units": 5,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Strategist",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Renekton",
+          "items": [],
+          "path": "/champions/TFT9_Renekton"
+        },
+        {
+          "name": "TFT9_Ashe",
+          "items": [
+            "TFT4_Item_OrnnObsidianCleaver",
+            "TFT_Item_ZekesHerald"
+          ],
+          "path": "/champions/TFT9_Ashe"
+        },
+        {
+          "name": "TFT9_Akshan",
+          "items": [
+            "TFT_Item_Deathblade",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Akshan"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Sejuani",
+          "items": [
+            "TFT9_Item_ShurimaEmblem",
+            "TFT_Item_DragonsClaw",
+            "TFT_Item_RedBuff"
+          ],
+          "path": "/champions/TFT9_Sejuani"
+        },
+        {
+          "name": "TFT9_JarvanIV",
+          "items": [],
+          "path": "/champions/TFT9_JarvanIV"
+        },
+        {
+          "name": "TFT9_Azir",
+          "items": [
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_GuinsoosRageblade",
+            "TFT_Item_StatikkShiv"
+          ],
+          "path": "/champions/TFT9_Azir"
+        },
+        {
+          "name": "TFT9_Nasus",
+          "items": [
+            "TFT_Item_BrambleVest"
+          ],
+          "path": "/champions/TFT9_Nasus"
+        }
+      ]
+    },
+    {
+      "name": "DankestDongerNA",
+      "placement": 4,
+      "traits": [
+        {
+          "name": "Set9_Bastion",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Bruiser",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Demacia",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Freljord",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 2,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Noxus",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 3,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Sorcerer",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Targon",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Galio",
+          "items": [],
+          "path": "/champions/TFT9_Galio"
+        },
+        {
+          "name": "TFT9_Soraka",
+          "items": [
+            "TFT_Item_RunaansHurricane",
+            "TFT_Item_Morellonomicon"
+          ],
+          "path": "/champions/TFT9_Soraka"
+        },
+        {
+          "name": "TFT9_Lissandra",
+          "items": [],
+          "path": "/champions/TFT9_Lissandra"
+        },
+        {
+          "name": "TFT9_Karma",
+          "items": [
+            "TFT_Item_MadredsBloodrazor",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_UnstableConcoction"
+          ],
+          "path": "/champions/TFT9_Karma"
+        },
+        {
+          "name": "TFT9_Taric",
+          "items": [
+            "TFT_Item_FrozenHeart",
+            "TFT_Item_DragonsClaw"
+          ],
+          "path": "/champions/TFT9_Taric"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Sion",
+          "items": [
+            "TFT_Item_TitansResolve",
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_IonicSpark"
+          ],
+          "path": "/champions/TFT9_Sion"
+        }
+      ]
+    },
+    {
+      "name": "Invotics",
+      "placement": 6,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Deadeye",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Jhin",
+          "items": [
+            "TFT_Item_Zephyr"
+          ],
+          "path": "/champions/TFT9_Jhin"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [
+            "TFT_Item_WarmogsArmor",
+            "TFT_Item_DragonsClaw",
+            "TFT_Item_Quicksilver"
+          ],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Karma",
+          "items": [],
+          "path": "/champions/TFT9_Karma"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_StatikkShiv",
+            "TFT4_Item_OrnnMuramana"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_GuardianAngel",
+            "TFT_Item_RapidFireCannon"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        }
+      ]
+    },
+    {
+      "name": "Fiszere",
+      "placement": 2,
+      "traits": [
+        {
+          "name": "Set9_Armorclad",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_BandleCity",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Bastion",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Challenger",
+          "num_units": 4,
+          "style": 2,
+          "tier_current": 2,
+          "tier_total": 4
+        },
+        {
+          "name": "Set9_Ionia",
+          "num_units": 6,
+          "style": 3,
+          "tier_current": 2,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Piltover",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 2
+        },
+        {
+          "name": "Set9_Preserver",
+          "num_units": 2,
+          "style": 1,
+          "tier_current": 1,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Technogenius",
+          "num_units": 1,
+          "style": 3,
+          "tier_current": 1,
+          "tier_total": 1
+        },
+        {
+          "name": "Set9_Void",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        },
+        {
+          "name": "Set9_Zaun",
+          "num_units": 1,
+          "style": 0,
+          "tier_current": 0,
+          "tier_total": 3
+        }
+      ],
+      "units": [
+        {
+          "name": "TFT9_Irelia",
+          "items": [],
+          "path": "/champions/TFT9_Irelia"
+        },
+        {
+          "name": "TFT9_Warwick",
+          "items": [],
+          "path": "/champions/TFT9_Warwick"
+        },
+        {
+          "name": "TFT9_Sett",
+          "items": [],
+          "path": "/champions/TFT9_Sett"
+        },
+        {
+          "name": "TFT9_Karma",
+          "items": [],
+          "path": "/champions/TFT9_Karma"
+        },
+        {
+          "name": "TFT9_KaiSa",
+          "items": [
+            "TFT9_Item_IoniaEmblem",
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_PowerGauntlet"
+          ],
+          "path": "/champions/TFT9_KaiSa"
+        },
+        {
+          "name": "TFT9_Shen",
+          "items": [
+            "TFT_Item_GargoyleStoneplate",
+            "TFT_Item_Redemption",
+            "TFT_Item_BrambleVest"
+          ],
+          "path": "/champions/TFT9_Shen"
+        },
+        {
+          "name": "TFT9_Yasuo",
+          "items": [
+            "TFT_Item_InfinityEdge",
+            "TFT_Item_RapidFireCannon",
+            "TFT_Item_TitansResolve"
+          ],
+          "path": "/champions/TFT9_Yasuo"
+        },
+        {
+          "name": "TFT9_Heimerdinger",
+          "items": [
+            "TFT_Item_JeweledGauntlet",
+            "TFT_Item_RecurveBow"
+          ],
+          "path": "/champions/TFT9_Heimerdinger"
+        },
+        {
+          "name": "TFT9_HeimerdingerTurret",
+          "items": [
+            "TFT9_HeimerUpgrade_MicroRockets",
+            "TFT9_HeimerUpgrade_ShrinkRay",
+            "TFT9_HeimerUpgrade_ShrinkRay"
+          ],
+          "path": "/champions/TFT9_HeimerdingerTurret"
+        }
+      ]
+    }
+  ]
+]

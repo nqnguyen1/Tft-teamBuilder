@@ -1,5 +1,6 @@
 require("dotenv").config();
 /* eslint no-unused-vars: 0 */
+const fs = require("fs");
 const path = require("path");
 const express = require("express");
 const teamRouter = require("./routes/team");
@@ -24,7 +25,7 @@ mongoose.connect(mongoURI).then(() => {
 app.use(express.static(path.resolve(__dirname, "../dist")));
 app.use(
   cors({
-    origin: "http//localhost:3000",
+    origin: ["http//localhost:3000", "http://127.0.0.1:5500"],
     credentials: true,
   })
 );
@@ -41,10 +42,15 @@ app.use(
 app.use(cookieParser("THISISASECRET"));
 app.use(passport.initialize());
 app.use(passport.session());
+
 require("./passportConfig")(passport);
 
 app.use("/api/team", teamRouter);
 app.use("/api/user", userRouter);
+app.get("/hello", (req, res) => {
+  const location = path.resolve("tft-champion.json");
+  res.json(JSON.parse(fs.readFileSync(location)));
+});
 
 // app.post("/api/team", controller.createTeam)
 

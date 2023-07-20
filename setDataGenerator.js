@@ -5,10 +5,10 @@ fetch("https://raw.communitydragon.org/latest/cdragon/tft/en_us.json")
   .then((res) => res.json())
   .then((data) => {
     const setObj = {};
-    setObj.champions = data.sets[8].champions.map((x) => {
+    setObj.champions = data.sets[9].champions.map((x) => {
       return { apiName: x.apiName, name: x.name, traits: x.traits };
     });
-    const traits = data.sets[8].traits.reduce((acc, curr) => {
+    const traits = data.sets[9].traits.reduce((acc, curr) => {
       const name = curr.name;
       curr.count = 0;
       acc[name] = curr;
