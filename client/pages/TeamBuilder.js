@@ -1,5 +1,5 @@
 import React, { useReducer, useEffect } from "react";
-import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
+import { useLoaderData, useNavigate, useLocation } from "react-router-dom";
 import ChampionsContainer from "../components/TeamComp/ChampionsContainer";
 import CurrentTeamContainer from "../components/TeamComp/CurrentTeamContainer";
 
@@ -36,7 +36,6 @@ export default function TeamBuilder() {
   });
 
   useEffect(() => {
-    // console.log(currChampState.curr);
     if (userUnits) {
       userUnits.units = userUnits.units.map((x) => {
         return data[x.name];
@@ -105,8 +104,10 @@ export default function TeamBuilder() {
 }
 
 export async function loader({ request, params }) {
-  const response = await fetch("/api/team/set8Data");
+  const response = await fetch("/api/team/setData");
+  if (response.status === 401) {
+    return { error: "Please log in" };
+  }
   const data = await response.json();
-  console.log(data);
   return data;
 }

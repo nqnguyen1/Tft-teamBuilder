@@ -6,7 +6,7 @@ const User = require("../models/user");
 
 teamController.getSetData = async (req, res, next) => {
   console.log(req.user);
-  const location = path.resolve("set8Data.json");
+  const location = path.resolve("setData.json");
   res.locals.setData = JSON.parse(fs.readFileSync(location));
   next();
 };

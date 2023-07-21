@@ -1,16 +1,27 @@
-import React, { useContext } from "react";
-import { Outlet } from "react-router-dom";
+import React from "react";
+import { Outlet, Navigate, useLoaderData } from "react-router-dom";
 import MainNav from "../components/MainNav";
 import AuthContext from "../store/auth-context";
 import Home from "./Home";
 
 export default function Root() {
-  //https://www.youtube.com/watch?v=0x8Dap2EIVE
-  const ctx = useContext(AuthContext);
-  return (
+  const data = useLoaderData();
+  console.log(data);
+  return data.error ? (
+    <Navigate to="/home"></Navigate>
+  ) : (
     <>
       <MainNav></MainNav>
-      {ctx.user ? <Outlet></Outlet> : <Home></Home>}
+      <Outlet></Outlet>
     </>
   );
+}
+
+export async function loader({ request, params }) {
+  const response = await fetch("/api/user/isLoggedIn");
+  if (response.status === 401) {
+    return { error: "Please log in" };
+  }
+  const data = await response.json();
+  return data;
 }

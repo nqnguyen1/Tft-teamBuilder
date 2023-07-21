@@ -7,7 +7,7 @@ import TeamBuilder from "./pages/TeamBuilder";
 import { loader as teamLoader } from "./pages/TeamBuilder";
 import SaveComp from "./pages/SaveComp";
 import { loader as compLoader } from "./pages/SaveComp";
-import Root from "./pages/Root";
+import Root, { loader as rootLoader } from "./pages/Root";
 import { AuthContextProvider } from "./store/auth-context";
 
 const router = createBrowserRouter([
@@ -15,12 +15,13 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     children: [
-      // { path: "/", element: <Home /> },
       { path: "/user/:username", element: <UserProfile />, loader: userLoader },
       { path: "/builder", element: <TeamBuilder />, loader: teamLoader },
       { path: "/savecomp", element: <SaveComp />, loader: compLoader },
     ],
+    loader: rootLoader,
   },
+  { path: "/home", element: <Home /> },
 ]);
 
 export default function App() {

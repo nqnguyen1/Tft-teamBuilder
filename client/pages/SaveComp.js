@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLoaderData, Link } from "react-router-dom";
+import { useLoaderData, Link, redirect } from "react-router-dom";
 import Comp from "../components/SaveComp/Comp";
 import Cookies from "js-cookie";
 
@@ -39,8 +39,9 @@ export default function SaveComp() {
 
 export async function loader() {
   const response = await fetch("/api/team/getteam");
-  console.log(response.status);
+  if (response.status === 401) {
+    return redirect("/");
+  }
   const data = await response.json();
-  console.log(data);
   return data;
 }

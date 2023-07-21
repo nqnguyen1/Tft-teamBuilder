@@ -86,7 +86,7 @@ userController.login = async (req, res, next) => {
     if (err) {
       console.log(err);
     }
-    if (!user) res.json("no user exists");
+    if (!user) res.json(false);
     else {
       req.logIn(user, (err) => {
         if (err) throw err;

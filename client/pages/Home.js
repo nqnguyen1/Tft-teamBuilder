@@ -1,13 +1,51 @@
 import React, { useContext } from "react";
 import AuthContext from "../store/auth-context";
-
+import { useNavigate } from "react-router-dom";
 export default function Home() {
   const ctx = useContext(AuthContext);
+  const navigate = useNavigate();
+  function logInHandler(e) {
+    e.preventDefault();
+    const username = e.target[0].value;
+    const password = e.target[1].value;
+    fetch("/api/user/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "Application/JSON",
+      },
+      body: JSON.stringify({ username, password }),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data) {
+          navigate("/");
+        } else {
+          console.log("wrong username");
+        }
+      });
+  }
+
+  function signUpHandler(e) {
+    e.preventDefault();
+    const username = e.target[0].value;
+    const password = e.target[1].value;
+    fetch("/api/user/signup", {
+      method: "POST",
+      headers: {
+        "Content-Type": "Application/JSON",
+      },
+      body: JSON.stringify({ username, password }),
+    })
+      .then((res) => {
+        return res.json();
+      })
+      .then((data) => {});
+  }
   return (
     <>
       <h1>My Home Page</h1>
       <form
-        onSubmit={ctx.onLogIn}
+        onSubmit={logInHandler}
         style={{
           display: "flex",
           flexDirection: "column",
@@ -23,7 +61,7 @@ export default function Home() {
         <button type="submit">Log In</button>
       </form>
       <form
-        onSubmit={ctx.onSignUp}
+        onSubmit={signUpHandler}
         style={{
           display: "flex",
           flexDirection: "column",
