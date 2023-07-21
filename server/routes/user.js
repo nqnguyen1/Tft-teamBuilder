@@ -9,6 +9,15 @@ router.post("/login", userController.login, (req, res) => {
 
 router.post("/signup", userController.signup);
 
+router.post("/logout", (req, res, next) => {
+  req.logout(function (err) {
+    if (err) {
+      return next(err);
+    }
+    res.json(true);
+  });
+});
+
 router.get("/getChampion", userController.getChampion, (req, res) => {
   res.send(res.locals.champions);
 });

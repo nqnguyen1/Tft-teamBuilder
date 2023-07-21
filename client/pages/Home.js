@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import AuthContext from "../store/auth-context";
-import { useNavigate } from "react-router-dom";
-export default function Home() {
-  const ctx = useContext(AuthContext);
+import { useNavigate, useLocation } from "react-router-dom";
+
+export default function Home(props) {
   const navigate = useNavigate();
+  const { state: error } = useLocation();
+
   function logInHandler(e) {
     e.preventDefault();
     const username = e.target[0].value;
@@ -18,9 +20,9 @@ export default function Home() {
       .then((res) => res.json())
       .then((data) => {
         if (data) {
-          navigate("/");
+          navigate("/builder");
         } else {
-          console.log("wrong username");
+          navigate("/home", { state: { error: "Wrong Username or Password" } });
         }
       });
   }
@@ -39,11 +41,18 @@ export default function Home() {
       .then((res) => {
         return res.json();
       })
-      .then((data) => {});
+      .then((data) => {
+        if (!data.error) {
+          navigate("/builder");
+        } else {
+          navigate("/home", { state: { error: data.error } });
+        }
+      });
   }
   return (
     <>
-      <h1>My Home Page</h1>
+      <h1>TFT-Builder</h1>
+      {error && <div style={{ color: "red" }}>{error.error}</div>}
       <form
         onSubmit={logInHandler}
         style={{

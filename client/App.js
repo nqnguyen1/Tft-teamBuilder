@@ -9,6 +9,7 @@ import SaveComp from "./pages/SaveComp";
 import { loader as compLoader } from "./pages/SaveComp";
 import Root, { loader as rootLoader } from "./pages/Root";
 import { AuthContextProvider } from "./store/auth-context";
+import Error from "./pages/Error";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       { path: "/savecomp", element: <SaveComp />, loader: compLoader },
     ],
     loader: rootLoader,
+    errorElement: <Error></Error>,
   },
   { path: "/home", element: <Home /> },
 ]);

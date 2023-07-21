@@ -47,10 +47,6 @@ require("./passportConfig")(passport);
 
 app.use("/api/team", teamRouter);
 app.use("/api/user", userRouter);
-app.get("/hello", (req, res) => {
-  const location = path.resolve("tft-champion.json");
-  res.json(JSON.parse(fs.readFileSync(location)));
-});
 
 // app.post("/api/team", controller.createTeam)
 

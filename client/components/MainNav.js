@@ -9,14 +9,30 @@ export default function MainNav() {
     const username = e.target[0].value;
     navigate("/user/" + username);
   }
+
+  function logOutHandler(e) {
+    fetch("/api/user/logout", {
+      method: "POST",
+      headers: {
+        "Content-Type": "Application/JSON",
+      },
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data) {
+          navigate("/home");
+        }
+      });
+  }
   return (
     <nav className={styles.container}>
       <ul className={styles.container}>
         <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
           <Link to="/builder">Build Comp</Link>
+        </li>
+
+        <li>
+          <Link to="/savecomp">Save Comp</Link>
         </li>
         <form onSubmit={navigateHandler}>
           <input
@@ -26,7 +42,7 @@ export default function MainNav() {
           ></input>
         </form>
         <li>
-          <Link to="/savecomp">Save Comp</Link>
+          <button onClick={logOutHandler}>Log out</button>
         </li>
       </ul>
     </nav>

@@ -9,7 +9,7 @@ export default function ChampionsContainer(props) {
     return (
       <Champion
         clickHandler={props.addChamp}
-        key={x.name}
+        key={x.apiName}
         height="120"
         champion={x}
         opacity={opacity}

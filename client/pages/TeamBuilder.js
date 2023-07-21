@@ -8,6 +8,7 @@ export default function TeamBuilder() {
   const navigate = useNavigate();
   const { champions, traits } = data;
   const { state: userUnits } = useLocation();
+
   const currChampReducer = (state, action) => {
     if (action.type === "ADD") {
       const newState = { curr: [...state.curr], ...state };
@@ -105,9 +106,6 @@ export default function TeamBuilder() {
 
 export async function loader({ request, params }) {
   const response = await fetch("/api/team/setData");
-  if (response.status === 401) {
-    return { error: "Please log in" };
-  }
   const data = await response.json();
   return data;
 }

@@ -6,9 +6,13 @@ import Home from "./Home";
 
 export default function Root() {
   const data = useLoaderData();
-  console.log(data);
+
   return data.error ? (
-    <Navigate to="/home"></Navigate>
+    <Navigate
+      to="/home"
+      replace={true}
+      state={{ error: "Please Log In" }}
+    ></Navigate>
   ) : (
     <>
       <MainNav></MainNav>

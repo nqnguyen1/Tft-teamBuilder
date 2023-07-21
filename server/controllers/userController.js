@@ -8,7 +8,6 @@ const minePUUID =
   "DQDmFZDr207lv8KQGMi1BuboT3-XH0my8gPkHnNzkaxm9XuiN0MCP_PCW1Xyg573l2JEvtBNkOnycw";
 
 const fetchAndParse = async (linkToBeFetched) => {
-  console.log(linkToBeFetched);
   const res = await fetch(linkToBeFetched);
   return res.json();
 };
@@ -50,7 +49,6 @@ const getUserByName = async (name) => {
 userController.getUser = async (req, res, next) => {
   //real live serv
   const userData = await getUserByName(req.params.username);
-  console.log(userData);
   const matchId = await getMatchHistory(userData.puuid);
   const matchesData = [];
 
@@ -97,12 +95,16 @@ userController.login = async (req, res, next) => {
 };
 
 userController.signup = async (req, res, next) => {
-  const { username, password } = req.body;
-  const user = await User.create({ username, password });
-  req.logIn(user, (err) => {
-    if (err) throw err;
-    res.json(user);
-  });
+  try {
+    const { username, password } = req.body;
+    const user = await User.create({ username, password });
+    req.logIn(user, (err) => {
+      if (err) throw err;
+      res.json(user);
+    });
+  } catch (e) {
+    next({ code: 409, error: { message: "Username Taken" } });
+  }
 };
 
 userController.getChampion = async (req, res, next) => {
