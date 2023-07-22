@@ -1,14 +1,20 @@
 import React, { useState } from "react";
-import { useLoaderData, Link, redirect } from "react-router-dom";
+import { useLoaderData, Link, redirect, useNavigate } from "react-router-dom";
 import Comp from "../components/SaveComp/Comp";
 import Cookies from "js-cookie";
 
 export default function SaveComp() {
   const data = useLoaderData(); // a array of 9 object inside contains id and another array of 9
-
+  const navigate = useNavigate();
   const [teamComp, setTeamComp] = useState([...data]);
 
-  const editHandler = (data) => {};
+  const editHandler = (data) => {
+    const units = data.comp.map((x) => {
+      return { ...x, name: x.apiName };
+    });
+    console.log(units);
+    navigate("/builder", { state: { units, id: data._id } });
+  };
 
   const deleteHandler = (e) => {
     fetch("/api/team/delete/" + e, {

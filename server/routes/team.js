@@ -25,6 +25,10 @@ router.post(
   }
 );
 
+router.patch("/edit/:id", teamController.editTeam, (req, res, next) => {
+  res.json(res.locals.teams);
+});
+
 router.post("/delete/:id", teamController.deleteTeam, (req, res, next) => {
   res.json(res.locals.teams);
 });

@@ -7,7 +7,10 @@ export default function TeamBuilder() {
   const data = useLoaderData();
   const navigate = useNavigate();
   const { champions, traits } = data;
-  const { state: userUnits } = useLocation();
+  const { state } = useLocation();
+  let userUnits = state?.units ? state.units : false;
+  let id = state?.id ? state.id : false;
+  console.log(userUnits, id);
 
   const currChampReducer = (state, action) => {
     if (action.type === "ADD") {
@@ -38,15 +41,15 @@ export default function TeamBuilder() {
 
   useEffect(() => {
     if (userUnits) {
-      userUnits.units = userUnits.units.map((x) => {
+      userUnits = userUnits.map((x) => {
         return data[x.name];
       });
-      if (userUnits.units.length < 10) {
-        for (let i = 0; i <= 10 - userUnits.units.length; i++) {
-          userUnits.units.push("");
+      if (userUnits.length < 10) {
+        for (let i = 0; i <= 10 - userUnits.length; i++) {
+          userUnits.push("");
         }
       }
-      currChampDispatch({ type: "UPDATE", payload: userUnits.units });
+      currChampDispatch({ type: "UPDATE", payload: userUnits });
     }
   }, []);
   const addChampHandler = (champ, e) => {
@@ -65,9 +68,11 @@ export default function TeamBuilder() {
     const filterChamp = currChampState.curr.filter((x) => {
       return x ? true : false;
     });
+    const url = id ? `/api/team/edit/${id}` : "/api/team/addTeam";
+    const method = id ? "PATCH" : "POST";
 
-    fetch("/api/team/addTeam", {
-      method: "POST",
+    fetch(url, {
+      method,
       headers: {
         "Content-Type": "Application/JSON",
       },

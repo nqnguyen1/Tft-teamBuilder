@@ -27,6 +27,18 @@ teamController.addTeam = async (req, res, next) => {
   next();
 };
 
+teamController.editTeam = async (req, res, next) => {
+  const currUser = await User.findOne({ username: req.user.username });
+  const beforeUpdatedTeam = await Team.findOneAndUpdate(
+    { _id: req.params.id },
+    { comp: [...req.body] }
+  );
+
+  const team = await currUser.populate("team_id");
+  res.locals.teams = team.team_id;
+  next();
+};
+
 teamController.deleteTeam = async (req, res, next) => {
   const currUser = await User.findOne({ username: req.user.username });
   const currTeam = await Team.findOne({ _id: req.params.id });

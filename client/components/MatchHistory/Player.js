@@ -29,6 +29,7 @@ export default function Player(props) {
   });
 
   const clickHandler = () => {
+    console.log(units);
     navigate("/builder", { state: { units } });
   };
   return (
