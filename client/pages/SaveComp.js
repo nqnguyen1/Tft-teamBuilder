@@ -18,7 +18,7 @@ export default function SaveComp() {
 
   const deleteHandler = (e) => {
     fetch("/api/team/delete/" + e, {
-      method: "POST",
+      method: "DELETE",
     }).then((res) => {
       setTeamComp((prev) => {
         return prev.filter((x) => x._id !== e);

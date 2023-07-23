@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-
+// this file is to generate new set data this link will always return the latest set data
 fetch("https://raw.communitydragon.org/latest/cdragon/tft/en_us.json")
   .then((res) => res.json())
   .then((data) => {
