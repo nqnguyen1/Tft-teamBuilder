@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import Player from "./Player";
-import AdditionalPlayer from "./AdditionalPlayer";
 import styles from "./Match.module.css";
 
 export default function Match(props) {
-  let { username } = useParams();
-  const [showMorePlayer, setShowMorePlayer] = useState(false);
+  //individual matches
+  let { username } = useParams(); // grab the username in order to find the main player data to display
+  const [showMorePlayer, setShowMorePlayer] = useState(false); // state for drop down
 
   const matchInfo = props.matchInfo;
   matchInfo.sort((a, b) => {
@@ -14,10 +14,14 @@ export default function Match(props) {
   });
 
   const mainPlayer = matchInfo.find(
-    (x) => x.name.toLowerCase() === username.toLowerCase()
+    (player) => player.name.toLowerCase() === username.toLowerCase()
   );
 
+  const additionalPlayerJSX = matchInfo.map((x, index) => {
+    return <Player key={`${x.name}${index}`} playerInfo={x}></Player>;
+  });
   const clickHandler = (e) => {
+    // drop down menu
     setShowMorePlayer((currState) => !currState);
   };
 
@@ -30,11 +34,12 @@ export default function Match(props) {
       <div
         className={
           showMorePlayer
-            ? `${styles.active} ${styles.dropdown}`
+            ? `${styles.active} ${styles.dropdown} `
             : `${styles.inactive} ${styles.dropdown}`
         }
       >
-        <AdditionalPlayer matchInfo={matchInfo}></AdditionalPlayer>
+        {/* <AdditionalPlayer matchInfo={matchInfo}></AdditionalPlayer> */}
+        {additionalPlayerJSX}
       </div>
     </div>
   );

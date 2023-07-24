@@ -1,58 +1,72 @@
-import React, { useContext } from "react";
-import AuthContext from "../store/auth-context";
-import { useNavigate, useLocation } from "react-router-dom";
+import React, { useState } from "react";
+import AuthContext from "../store/context";
+import { useNavigate, useLocation, redirect } from "react-router-dom";
 
 export default function Home(props) {
+  // this component renders the log in / sign up page
   const navigate = useNavigate();
-  const { state: error } = useLocation();
+  const { state: error } = useLocation(); // grabbing the error to display
+
+  const [message, setMessage] = useState(error?.error);
 
   function logInHandler(e) {
+    // logging in handler
     e.preventDefault();
     const username = e.target[0].value;
     const password = e.target[1].value;
-    fetch("/api/user/login", {
-      method: "POST",
-      headers: {
-        "Content-Type": "Application/JSON",
-      },
-      body: JSON.stringify({ username, password }),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        if (data) {
-          navigate("/builder");
-        } else {
-          navigate("/home", { state: { error: "Wrong Username or Password" } });
-        }
-      });
+    if (username && password) {
+      fetch("/api/user/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "Application/JSON",
+        },
+        body: JSON.stringify({ username, password }),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (!data.error) {
+            navigate("/builder");
+          } else {
+            setMessage(data.error);
+          }
+        });
+    } else {
+      setMessage("Please fill out both username and password");
+    }
   }
 
   function signUpHandler(e) {
+    // signing up handler
     e.preventDefault();
+
     const username = e.target[0].value;
     const password = e.target[1].value;
-    fetch("/api/user/signup", {
-      method: "POST",
-      headers: {
-        "Content-Type": "Application/JSON",
-      },
-      body: JSON.stringify({ username, password }),
-    })
-      .then((res) => {
-        return res.json();
+    if (username && password) {
+      fetch("/api/user/signup", {
+        method: "POST",
+        headers: {
+          "Content-Type": "Application/JSON",
+        },
+        body: JSON.stringify({ username, password }),
       })
-      .then((data) => {
-        if (!data.error) {
-          navigate("/builder");
-        } else {
-          navigate("/home", { state: { error: data.error } });
-        }
-      });
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          if (!data.error) {
+            navigate("/builder");
+          } else {
+            setMessage(data.error);
+          }
+        });
+    } else {
+      setMessage("Please fill out both username and password");
+    }
   }
   return (
     <>
       <h1>TFT-Builder</h1>
-      {error && <div style={{ color: "red" }}>{error.error}</div>}
+      {message && <div style={{ color: "red" }}>{message}</div>}
       <form
         onSubmit={logInHandler}
         style={{

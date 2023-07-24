@@ -6,6 +6,7 @@ function getSrc(name) {
 }
 
 export default function Champion(props) {
+  // dumb component rendering the logo for each champion
   const style = {
     height: `${props.height}px`,
     aspectRatio: `1/1`,

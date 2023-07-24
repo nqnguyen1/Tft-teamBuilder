@@ -19,7 +19,7 @@ router.get("/isLoggedin", isLoggedIn, (req, res) => {
   res.json(true);
 });
 
-router.get("/:username", userController.getUser, (req, res) => {
+router.get("/:username", isLoggedIn, userController.getUser, (req, res) => {
   // THIS ROUTE MUST BE THE LAST ROUTE TO BE CHECKED BECAUSE OF THE DYNAMIC PARAMETER
   // grab the user 3 latest matches information (3 for now because of riot api limit)
   res.json(res.locals.matches);

@@ -38,6 +38,15 @@
 
 .dropdown {
   background-color: rgb(120, 55, 101);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: space-around;
+}
+
+.dropdown > div {
+  margin: 1em;
 }
 
 .container {

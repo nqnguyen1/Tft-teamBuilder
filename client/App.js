@@ -8,10 +8,11 @@ import { loader as teamLoader } from "./pages/TeamBuilder";
 import SaveComp from "./pages/SaveComp";
 import { loader as compLoader } from "./pages/SaveComp";
 import Root, { loader as rootLoader } from "./pages/Root";
-import { AuthContextProvider } from "./store/auth-context";
+import { ContextProvider } from "./store/context";
 import Error from "./pages/Error";
 
 const router = createBrowserRouter([
+  // router for application
   {
     path: "/",
     element: <Root />,
@@ -28,8 +29,8 @@ const router = createBrowserRouter([
 
 export default function App() {
   return (
-    <AuthContextProvider>
+    <ContextProvider>
       <RouterProvider router={router}></RouterProvider>
-    </AuthContextProvider>
+    </ContextProvider>
   );
 }

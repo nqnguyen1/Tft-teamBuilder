@@ -110,7 +110,13 @@ userController.login = async (req, res, next) => {
         },
       });
     }
-    if (!user) res.json(false);
+    if (!user)
+      next({
+        code: 401,
+        error: {
+          message: "Wrong Username or Password",
+        },
+      });
     else {
       req.logIn(user, (err) => {
         if (err) {

@@ -56,7 +56,10 @@ app.use("/api/user", userRouter); // router for handling all user related routes
 
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ General error handling middleware @@@@@@@@@@@@@@@@@@@@@@@@
 app.use(({ code, error, internalMessage }, req, res, next) => {
-  console.log(internalMessage);
+  if (internalMessage) {
+    //
+    console.log(internalMessage);
+  }
   res.status(code).json({ error: error.message });
 });
 

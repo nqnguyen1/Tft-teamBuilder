@@ -3,8 +3,15 @@ import SaveChampion from "./SaveChamp";
 import styles from "./Comp.module.css";
 
 export default function Comp(props) {
-  const championJSX = props.data.comp.map((x) => {
-    return <SaveChampion key={x.name} height="120" champion={x}></SaveChampion>;
+  // this component renders individual team that is saved under user account, renders each champion individually
+  const championJSX = props.data.comp.map((x, index) => {
+    return (
+      <SaveChampion
+        key={`${x.name}${index}`}
+        height="120"
+        champion={x}
+      ></SaveChampion>
+    );
   });
 
   const editHandler = (e) => {

@@ -6,9 +6,11 @@ function getSrc(path) {
   return `http://localhost:3000/assets/${path}.png`;
 }
 
+const NOT_REAL_UNITS = ["TFT9_HeimerdingerTurret", "TFT9_THex"]; // list of units to filter out that is not included in the list of real units
+
 export default function Player(props) {
-  const navigate = useNavigate();
-  const { name, placement, traits, units } = props.playerInfo;
+  const navigate = useNavigate(); // to navigate to /builder when a user click on save team
+  const { name, placement, traits, units } = props.playerInfo; // grabbing main data to displayfor eachplayer
   const traitsJSX = traits.reduce((acc, curr) => {
     if (curr.tier_current > 0) {
       const result = curr.name.replace(/^.*_/, "");
@@ -17,11 +19,15 @@ export default function Player(props) {
     return acc;
   }, []);
 
-  const unitsJSX = units.map((unit) => {
+  const filterUnits = units.filter(
+    (unit) => !NOT_REAL_UNITS.includes(unit.name)
+  );
+
+  const unitsJSX = filterUnits.map((unit, index) => {
     return (
       <img
         className={styles.img}
-        key={unit.name}
+        key={`${unit.name}${index}`}
         src={getSrc(unit.path)}
         alt={unit.name}
       ></img>
@@ -29,8 +35,7 @@ export default function Player(props) {
   });
 
   const clickHandler = () => {
-    console.log(units);
-    navigate("/builder", { state: { units } });
+    navigate("/builder", { state: { units: filterUnits } });
   };
   return (
     <div className={styles.container}>

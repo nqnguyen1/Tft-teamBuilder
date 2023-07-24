@@ -5,6 +5,7 @@ function getSrc(name) {
 }
 
 export default function SaveChampion(props) {
+  //dumb component rendering just the logo of the champ passed down
   const style = {
     height: `${props.height}px`,
     aspectRatio: `1/1`,
